@@ -1,0 +1,40 @@
+---
+layout: default
+---
+
+<article
+    class="sm:mt-6 p-6 space-y-8 sm:space-y-6 sm:max-w-3xl mx-auto sm:border sm:rounded-md"
+>
+    <div class="pt-2 sm:pb-2 space-y-3 text-center">
+        <p class="text-gray-500 font-roboto">
+            {% assign month_index = page.date | date: "%-m" | minus: 1 %} {{
+            page.date | date: "%-d" }} de {{ site.data.months[month_index] }} de
+            {{ page.date | date: "%Y" }}
+        </p>
+        <h1 class="text-4xl font-inconsolata font-bold">{{ page.title }}</h1>
+    </div>
+    <img src="{{ page.image }}" alt="{{ page.title }}" class="w-full" />
+    <div class="space-y-4 font-roboto">{{ content }}</div>
+    {% if page.previous or page.next %}
+    <nav class="font-inconsolata flex justify-between font-bold text-lg">
+        {% if page.previous %}
+        <a href="{{ page.previous.url }}" class="flex items-center w-1/2">
+            <span><</span>
+            <span class="leading-none px-4 hover:underline"
+                >{{ page.previous.title }}</span
+            >
+        </a>
+        {% endif %} {% if page.next %}
+        <a
+            href="{{ page.next.url }}"
+            class="ml-auto flex items-center justify-end w-1/2"
+        >
+            <span class="leading-none text-right px-4 hover:underline"
+                >{{ page.next.title }}</span
+            >
+            <span>></span>
+        </a>
+        {% endif %}
+    </nav>
+    {% endif %}
+</article>

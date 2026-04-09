@@ -1,0 +1,12 @@
+- title: Inicio
+  url: /
+  target: _self
+- title: Libros
+  url: /libros
+  target: _self
+- title: Acerca de mí
+  url: /acerca-de-mi
+  target: _self
+- title: Instagram
+  url: https://www.instagram.com/raul.vieytes/
+  target: _blank

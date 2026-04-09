@@ -1,0 +1,13 @@
+<ul class="font-inconsolata flex flex-col md:flex-row gap-6 text-lg">
+{% for nav in site.data.navigation %}
+    <li>
+        <a
+            href="{{ nav.url }}"
+            target="{{ nav.target }}"
+            class={% if page.url == nav.url %}"underline text-orange-600"{% else %}"hover:underline"{% endif %}
+        >
+            {{ nav.title }}
+        </a>
+    </li>
+{% endfor %}
+</ul>

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "es-ES" }}">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <title>{{ site.title }}</title>
+        <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>
+    </head>
+
+    <body class="container mx-auto min-h-screen">
+        {% include header.html %}
+        {{ content }}
+        {% include footer.html %}
+    </body>
+</html>
