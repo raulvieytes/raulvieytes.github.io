@@ -16,7 +16,7 @@ title: Home
                 <h2 class="font-inconsolata text-xl leading-none font-bold">
                     {{ post.title }}
                 </h2>
-                <div class="font-roboto sm:text-sm">
+                <div class="sm:text-sm">
                     {% assign excerpt_text = post.excerpt | strip_html |
                     strip_newlines | strip %} {% assign truncated = excerpt_text
                     | truncatewords: 30, '...' %} {{ truncated }}
