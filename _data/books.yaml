@@ -1,0 +1,69 @@
+- title: Dummy PDF
+  excerpt: >-
+    Este es un PDF de ejemplo. Es un documento compartido desde Google Drive, la idea es mostrar
+    que se pueden linkear PDFs desde la nube, que probablemente es mejor que subirlos a Github.
+  url: https://drive.google.com/file/d/1LA5oeSXlO4Bo3wCTeImPl_9cGq0WDctb/view?usp=sharing
+  image: https://images.unsplash.com/vector-1740024690544-18c5af5952cd?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+- title: El gato con botas
+  excerpt: >-
+    El gato con botas es un cuento de hadas escrito por Charles Perrault.
+    La historia sigue a un gato inteligente y astuto que ayuda a su amo, un pobre joven,
+    a alcanzar la riqueza y el poder. El cuento explora temas como la lealtad,
+    la astucia y el poder de la imaginación.
+  url: https://www.argentina.gob.ar/sites/default/files/perrault_charles_-_el_gato_con_botas.pdf
+  image: https://images.unsplash.com/vector-1767871965229-385c05939e84?q=80&w=1055&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+- title: El escarbajo de oro
+  excerpt: >-
+    El escarabajo de oro es un cuento de Edgar Allan Poe.
+    La historia sigue a un hombre obsesionado con encontrar un tesoro escondido,
+    guiado por un escarabajo de oro que encuentra en la playa. A medida que se adentra en la búsqueda,
+    el hombre se vuelve cada vez más paranoico y desesperado, lo que lleva a un desenlace trágico.
+    El cuento explora temas como la obsesión, la locura y el poder destructivo de la codicia.
+  url: https://www.argentina.gob.ar/sites/default/files/el_escarabajo_de_oro_-_edgar_allan_poe.pdf
+  image: https://images.unsplash.com/vector-1744801439959-d2bf9577e553?q=80&w=1042&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+- title: El libro de la selva
+  excerpt: >-
+    El libro de la selva es una obra de Rudyard Kipling.
+    La historia sigue a Mowgli, un niño criado por lobos en la selva,
+    y sus aventuras con animales de la fauna local. El cuento explora temas como la amistad,
+    la supervivencia y el conflicto entre la civilización y la naturaleza.
+  url: https://www.argentina.gob.ar/sites/default/files/kipling_joseph_rudyard_-_el_libro_de_la_selva.pdf
+  image: https://images.unsplash.com/vector-1771632069600-81e20d8294c3?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+- title: Las aventuras de Sherlock Holmes
+  excerpt: >-
+    Las aventuras de Sherlock Holmes es una colección de cuentos escritos por Arthur Conan Doyle.
+    La historia sigue al famoso detective Sherlock Holmes y su amigo, el Dr. John Watson,
+    mientras resuelven misterios y crímenes en la Inglaterra victoriana. El cuento explora temas como la lógica,
+    la deducción y la lucha entre el bien y el mal.
+  url: https://www.argentina.gob.ar/sites/default/files/las_aventuras_de_sherlock_holmes_conan_doyle.pdf
+  image: https://images.unsplash.com/vector-1761835780372-e847fbdd4a98?q=80&w=1015&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+- title: El patito feo
+  excerpt: >-
+    El patito feo es un cuento de hadas escrito por Hans Christian Andersen.
+    La historia sigue a un patito que nace en una granja y es rechazado por su apariencia fea.
+    A medida que crece, el patito se siente cada vez más solo y triste, hasta que finalmente se convierte en un hermoso cisne.
+    El cuento explora temas como la aceptación, la identidad y la transformación personal.
+  url: https://www.argentina.gob.ar/sites/default/files/el_patito_feo_andersen.pdf
+  image: https://images.unsplash.com/vector-1753854003922-46d6fd716c32?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+- title: El príncipe feliz
+  excerpt: >-
+    El príncipe feliz es un cuento de hadas escrito por Oscar Wilde.
+    La historia sigue a una estatua de un príncipe que, después de su muerte, se convierte en un símbolo de la compasión y la generosidad.
+    A través de la ayuda de una golondrina, el príncipe ayuda a los pobres y necesitados de la ciudad, sacrificando su propia belleza y riqueza en el proceso.
+    El cuento explora temas como la caridad, el sacrificio y la verdadera belleza interior.
+  url: https://www.argentina.gob.ar/sites/default/files/el_principe_feliz_-_oscar_wilde.pdf
+  image: https://images.unsplash.com/vector-1763534562460-2e4afe9008a8?q=80&w=2664&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+
+- title: La casa inundada
+  excerpt: >-
+    La casa inundada es un cuento de hadas escrito por Hans Christian Andersen.
+    La historia sigue a una casa que se inunda debido a una tormenta, y cómo los habitantes de la casa luchan por sobrevivir y reconstruir su hogar.
+    El cuento explora temas como la resiliencia, la comunidad y la importancia de la solidaridad en tiempos de crisis.
+  url: https://www.argentina.gob.ar/sites/default/files/la_casa_inundada_hernandez.pdf
+  image: https://images.unsplash.com/vector-1756376206493-b72eeca38130?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D

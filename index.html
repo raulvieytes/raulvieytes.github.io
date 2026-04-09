@@ -4,7 +4,7 @@ title: Home
 ---
 
 <div
-    class="h-full columns-1 gap-5 px-6 pt-6 sm:columns-3 sm:px-0 sm:pt-0 lg:columns-4"
+    class="columns-1 gap-5 px-6 pt-6 sm:columns-3 sm:px-0 sm:pt-0 lg:columns-4"
 >
     {% for post in site.posts %}
     <a href="{{ post.url }}">
@@ -13,9 +13,9 @@ title: Home
         >
             <img src="{{ post.image }}" alt="{{ post.title }}" class="w-full" />
             <div class="mt-1 space-y-2 px-5 py-4">
-                <h3 class="font-inconsolata text-xl leading-none font-bold">
+                <h2 class="font-inconsolata text-xl leading-none font-bold">
                     {{ post.title }}
-                </h3>
+                </h2>
                 <div class="font-roboto sm:text-sm">
                     {% assign excerpt_text = post.excerpt | strip_html |
                     strip_newlines | strip %} {% assign truncated = excerpt_text

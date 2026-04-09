@@ -1,0 +1,25 @@
+---
+layout: default
+title: Libros
+permalink: /libros
+---
+
+<div
+    class="columns-1 gap-5 px-6 pt-6 sm:columns-3 sm:px-0 sm:pt-0 lg:columns-4"
+>
+    {% for book in site.data.books %}
+    <a href="{{ book.url }}" target="_blank">
+        <div
+            class="mb-5 break-inside-avoid-column overflow-hidden rounded-md border hover:border-orange-600"
+        >
+            <img src="{{ book.image }}" alt="{{ book.title }}" class="w-full" />
+            <div class="mt-1 space-y-2 px-5 py-4">
+                <h2 class="font-inconsolata text-xl leading-none font-bold">
+                    {{ book.title }}
+                </h2>
+                <div class="font-roboto sm:text-sm">{{ book.excerpt }}</div>
+            </div>
+        </div>
+    </a>
+    {% endfor %}
+</div>
