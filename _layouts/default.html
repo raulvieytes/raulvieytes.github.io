@@ -1,16 +1,23 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "es-ES" }}">
+<!doctype html>
+<html lang="{{ site.lang | default: 'es-ES' }}">
     <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta charset="utf-8">
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>{{ site.title }}</title>
-        <link rel="stylesheet" href="{{ "/assets/css/styles.css" | relative_url }}">
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1" type="module"></script>
+        <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" />
+
+        <link
+            rel="stylesheet"
+            href="{{ '/assets/css/styles.css' | relative_url }}"
+        />
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1"
+            type="module"
+        ></script>
     </head>
 
     <body class="container mx-auto min-h-screen flex flex-col font-roboto">
-        {% include header.html %}
-        {{ content }}
-        {% include footer.html %}
+        {% include header.html %} {{ content }} {% include footer.html %}
     </body>
 </html>
