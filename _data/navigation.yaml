@@ -5,7 +5,7 @@
   url: /libros
   target: _self
 - title: Acerca de mí
-  url: /about
+  url: /acerca-de-mi
   target: _self
 - title: Instagram
   url: https://www.instagram.com/raul.vieytes/
