@@ -34,11 +34,11 @@ If you change `_config.yml`, restart the server (Jekyll doesn't reload it automa
 - jekyll-tailwindcss: https://rubygems.org/gems/jekyll-tailwindcss
 
 ## Ideas to explore
-- Categories and tags for posts.
-- Drafts workflow (`_drafts/` + build flags).
+- (Categories and tags)[https://jekyllrb.com/docs/posts/#tags-and-categories] for posts.
+- (Drafts)[https://jekyllrb.com/docs/posts/#drafts] workflow (`_drafts/` + build flags).
 - Search or filter UI for stories.
 - Pagination or infinite scroll on the home grid.
-- Related posts and reading time.
+- (Related posts)[https://jekyllrb.com/docs/variables/#site-variables] and reading time.
 - Social sharing metadata (Open Graph/Twitter cards).
 - Image optimization (responsive sizes, lazy loading).
 - Accessibility audit (contrast, focus states, alt text).
