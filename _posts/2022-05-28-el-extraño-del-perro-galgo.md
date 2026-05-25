@@ -2,9 +2,8 @@
 title: El extraño del perro galgo
 layout: post
 author: Raúl Vieytes
-image: /assets/img/cuadro-1.jpeg
+image: https://raw.githubusercontent.com/raulvieytes/raulvieytes.github.io/refs/heads/main/assets/img/cuadro-1.jpg
 ---
-**El extraño del perro galgo**
 
 Dos personas cantan a dúo sin pretensiones de hacerlo frente a un público. Tienen más oportunidades de ver que de ser vistas. El público no precisa lo que ya tiene, es el inaccesible lado externo del límite. Las voces se vuelven pura comparsa de lo que entra por los ojos. Si son dos mujeres, dos varones, o se trata de una formación mixta, no importa. Y si, aunque no sea más que uno, toca un instrumento al tiempo que canta, será suficiente.  
 
