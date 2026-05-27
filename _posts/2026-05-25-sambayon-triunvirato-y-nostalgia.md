@@ -2,9 +2,10 @@
 title: Sambayón, triunvirato y nostalgia 
 layout: post
 author: Raúl Vieytes
-image: https://raw.githubusercontent.com/raulvieytes/raulvieytes.github.io/refs/heads/main/assets/img/cuadro-6.jpg
+image: https://raw.githubusercontent.com/raulvieytes/raulvieytes.github.io/refs/heads/main/assets/img/cuadro 19.jpg
 ---
-Era un amor que había que mirar a todos lados para verlo completo, como armando un rompecabezas. Y para interpretarlo se podía usar alguna actividad cuyo nombre terminara en “logía”, sin importar mucho cuál, ya existente o inventada ahora para la ocasión. Y para medirlo, alguna forma terminada en “nomía” de calcular sus cantidades.  
+<div style="text-align: justify;">
+Era un amor que había que mirar a todas partes para verlo completo, como si armaras un rompecabezas. Y para interpretarlo se podía usar alguna actividad cuyo nombre terminara en “-logía”, sin importar mucho cuál, ya existente o inventada en este momento para la ocasión. Y te interesaba medirlo, usabas alguna forma terminada en “-nomía” para calcular sus cantidades.  
 
 Abrió las manos generosamente y observó ambas palmas: qué líneas extraordinarias.   
 
@@ -24,3 +25,4 @@ Un reloj, en alguna parte, marcaba la hora. A ella también le gustaba andar en 
 \-Lo único que existe es pasar un día bueno o malo. Seguir adelante, en moto o en auto, porque no hay nada detrás; y correr porque, si seguís más tiempo parada, te podés caer \-le dijo a su panza.   
 
 El horizonte otra vez se arrugaba, se había desafilado. En un punto de la ruta, ella se apartó a la banquina. Se estacionó ahí media hora, en la llanura desierta, para usar el celular. De algún modo se pinchó un dedo con algo y una gota de sangre cayó sobre la pantalla. La limpió con la camiseta. Definitivamente, estaba muy lejos del aquí y ahora. ¿Qué iba a querer hacer ese día? Bailar. Lo bueno de los caminos del amor era que no había GPS que te señalara lo que venía después.
+</div>
