@@ -2,7 +2,7 @@
 title: Tres mil cráteres 
 layout: post
 author: Raúl Vieytes
-image: https://raw.githubusercontent.com/raulvieytes/raulvieytes.github.io/refs/heads/main/assets/img/cuadro-7.jpg
+image: https://raw.githubusercontent.com/raulvieytes/raulvieytes.github.io/refs/heads/main/assets/img/cuadro-21.jpg
 ---
 Estaba de moda algo llamado "literatura del yo". La noche anterior ella había leído un cuento representativo de esa tendencia literaria y le había gustado muchísimo. Entonces se había dormido y al rato despertado, como todas las noches. Durante las horas de insomnio se enfocaba en la relajación y, para eso, necesitaba cierta actividad intelectual \-la de suspender la actividad intelectual, logro que exigía dos pasos intermedios: debía sustituir primero los pensamientos negativos por otros positivos para, recién después, rellenar esa positividad con una neutralidad vacía. De alguna forma, la paz espiritual era resultado de un algoritmo, como la vida era una sucesión de decisiones algorítmicas entre dos o más opciones que la realidad ofrecía. Todo estaba por encima de los seres humanos, debajo de ellos había poco (en verdad todo estaba abajo, lo de arriba era pura ilusión).  
 
