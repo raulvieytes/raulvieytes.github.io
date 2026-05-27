@@ -25,6 +25,7 @@ justify: true
 
 {: style="text-align: justify; text-indent: 2em;"}
   -Lo mismo no es lo mismo sino algo nuevo.  
+  {: style="text-align: justify; text-indent: 2em;"}
   -Seguro es así. O seguro podría serlo aunque, quizá, no lo sea.   
 
 {: style="text-align: justify; text-indent: 2em;"}
@@ -33,5 +34,6 @@ justify: true
 {: style="text-align: justify; text-indent: 2em;"}
   -Lo único que existe es pasar un día bueno o malo. Seguir adelante, en moto o en auto, porque no hay nada detrás; y correr porque, si seguís más tiempo parada, te podés caer \-le dijo a su panza.   
 
+{: style="text-align: justify; text-indent: 2em;"}
   El horizonte otra vez se arrugaba, se había desafilado. En un punto de la ruta, ella se apartó a la banquina. Se estacionó ahí media hora, en la llanura desierta, para usar el celular. De algún modo se pinchó un dedo con algo y una gota de sangre cayó sobre la pantalla. La limpió con la camiseta. Definitivamente, estaba muy lejos del aquí y ahora. ¿Qué iba a querer hacer ese día? Bailar. Lo bueno de los caminos del amor era que no había GPS que te señalara lo que venía después.
 
