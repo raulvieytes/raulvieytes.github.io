@@ -2,3 +2,9 @@
 # This file will be converted to __site/assets/css/styles.css
 ---
 This file is just a placeholder. It's content will be replaced by output from the tailwindcss CLI.
+@layer utilities {
+  .post-content p {
+    text-align: justify;
+    text-indent: 2em;
+  }
+}
