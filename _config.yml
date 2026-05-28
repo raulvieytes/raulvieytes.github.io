@@ -53,7 +53,7 @@ timezone: America/Argentina/Buenos_Aires
 
 inline_css: |
   body {
-    background-image: url('/assets/images/cuadro-25') !important;
+    background-image: url('/assets/images/cuadro-25.jpg') !important;
     background-repeat: repeat !important;
     background-attachment: fixed !important;
   }
