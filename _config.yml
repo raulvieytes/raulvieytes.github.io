@@ -50,3 +50,10 @@ timezone: America/Argentina/Buenos_Aires
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+inline_css: |
+  body {
+    background-image: url('/assets/images/cuadro-25') !important;
+    background-repeat: repeat !important;
+    background-attachment: fixed !important;
+  }
