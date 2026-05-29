@@ -6,7 +6,7 @@ image: https://raw.githubusercontent.com/raulvieytes/raulvieytes.github.io/refs/
 justify: true
 ---
 {: style="text-align: justify; text-indent: 2em;"}
-  Era un amor que había que mirar a todas partes para verlo completo, como si armaras un rompecabezas. Y para interpretarlo se podía usar alguna actividad cuyo nombre terminara en “-logía”, sin importar mucho cuál, ya existente o inventada en este momento para la ocasión. Y te interesaba medirlo, usabas alguna forma terminada en “-nomía” para calcular sus cantidades.  
+  Era un amor que había que mirar a todas partes para verlo completo, como si armaras un rompecabezas. Y para interpretarlo se podía usar alguna actividad cuyo nombre terminara en “-logía”, sin importar mucho cuál, ya existente o inventada en este momento para la ocasión. Y si te interesaba medirlo, usabas alguna forma terminada en “-nomía” para calcular sus cantidades.  
 
 {: style="text-align: justify; text-indent: 2em;"}
   Abrió las manos generosamente y observó ambas palmas: qué líneas extraordinarias.   
