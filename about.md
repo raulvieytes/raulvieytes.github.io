@@ -16,7 +16,7 @@ Los demás sujetos que ocupan ocasionalmente esta identidad vacía quedan por fu
 Para encargos, presentaciones o consultas, podés escribirme a:
 
 - Correo: [swapovolker@gmail.com](mailto:swapovolker@gmail.com)
-- Instagram: [@{{ site.instagram }}](https://instagram.com/{{ site.instagram }}/)
+- Instagram: [@raul.vieytes](https://instagram.com/raul.vieytes/)
 
 <br>
 
