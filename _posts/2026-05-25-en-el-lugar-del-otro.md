@@ -6,7 +6,7 @@ image: https://raw.githubusercontent.com/raulvieytes/raulvieytes.github.io/refs/
 ---
 
 {: style="text-align: justify; text-indent: 2em;"} 
-Qué grande era su diploma. Y eso que pertenecía a un grupo de mujeres que tenía unos diplomas así de grandes. Ella se hamacaba juguetona y le pendulaba como un badajo. Era un diploma de la universidad más importante del mundo más importante de la galaxia más importante del universo. Cuando lo daba a  luz te dejaba bizca. Admirable. Nada que ver con otras académicas diplomadas, pero que tampoco estaban mal, en absoluto. Los animales de la jungla, de la granja y de la ciudad, incluso los menos famosos, agradecidos a ella, por qué. Y a su diploma, obvio. 
+Qué grande era su diploma. Y eso que pertenecía a un grupo de mujeres que tenía unos diplomas así de grandes. Ella se hamacaba juguetona y le pendulaba el diploma como un badajo. Era un diploma de la universidad más importante del mundo más importante de la galaxia más importante del universo. Cuando lo daba a  luz te dejaba bizca. Admirable. Nada que ver con otras académicas diplomadas, pero que tampoco estaban mal, en absoluto. Los animales de la jungla, de la granja y de la ciudad, incluso los menos famosos, agradecidos a ella, por qué. Y a su diploma, obvio. 
 
 {: style="text-align: justify; text-indent: 2em;"} 
 Ella rendía culto a los personajes indecisos del sueño de alguien que vacilaba.  
