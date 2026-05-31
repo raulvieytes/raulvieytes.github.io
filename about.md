@@ -20,7 +20,7 @@ Para encargos, presentaciones o consultas, podés escribirme a:
 
 <br>
 
-Estaré encantado de recibir tu mensaje y conversar sobre proyectos, lecturas, cine, filosofía, historia, series, música, teatro, exposiciones, fútbol, tecnología, psicología, antropología, lingüística, paleontología, ¿llegaste a leer hasta acá?
+Estaré encantado de recibir tu mensaje y conversar sobre proyectos, lecturas, cine, filosofía, historia, series, música, teatro, exposiciones, fútbol, tecnología, psicología, antropología, lingüística pragmática, paleontología, ¿llegaste a leer hasta acá?
 
 </div>
 
