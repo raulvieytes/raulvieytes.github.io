@@ -3,8 +3,6 @@ layout: about
 permalink: /acerca-de-mi
 ---
 
-<div class="tarjeta-blanca" markdown="1">
-
 Esta podría ser la autobiografía de quien hace más de diez años expulsó de sí a la primera persona. En el espacio vacante que esta ha dejado se alojan -más o menos de paso- cantidades de sujetos individuales muy distintos. Algunos pueden manifestarse en público, no la mayoría (tampoco tienen buenas razones para hacerlo).
 
 Entre los sujetos que ocupan este vacío anímico, sin embargo, hay uno permanente que escribe. Es un vórtice espiritual que captura todo lo que toca, huele, saborea, oye y ve, luego arrastra esa masa cósmica hacia un epicentro, el eje donde se elaboran y obtienen resultados textuales. Algunos productos de tal especie son seleccionados para esta página de divulgación. Obviamente, dentro de una lógica semejante no tiene sentido el concepto de derecho de autor, trataremos de que su producción literaria completa esté disponible aquí en forma gratuita para quien le interese leerla.
@@ -22,29 +20,3 @@ Para encargos, presentaciones o consultas, podés escribirme a:
 
 Estaré encantado de recibir tu mensaje y conversar sobre proyectos, lecturas, cine, filosofía, historia, series, música, teatro, exposiciones, fútbol, tecnología, psicología, antropología, lingüística pragmática, paleontología, ¿llegaste a leer hasta acá?
 
-</div>
-
-<style>
-  body {
-    background-image: url('/assets/img/cuadro-26.jpg') !important;
-    background-size: cover !important;
-    background-position: center !important;
-    background-repeat: no-repeat !important;
-    background-attachment: fixed !important;
-  }
-  
-  .tarjeta-blanca {
-    background-color: white !important;
-    color: #1a1a1a !important;
-    padding: 40px !important;
-    border-radius: 8px !important;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.3) !important;
-    margin-top: 20px !important;
-  }
-
-  .tarjeta-blanca p {
-    text-indent: 30px !important;
-    margin-bottom: 1.5em !important;
-    text-align: justify;
-  }
-</style>

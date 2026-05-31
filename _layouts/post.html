@@ -3,36 +3,73 @@ layout: default
 ---
 
 <article class="p-6 sm:p-0 space-y-8 sm:space-y-6 sm:max-w-3xl mx-auto">
-    <div class="pt-2 sm:pb-2 space-y-3 text-center">
-        <p class="text-gray-500">
-            {% assign month_index = page.date | date: "%-m" | minus: 1 %} {{
-            page.date | date: "%-d" }} de {{ site.data.months[month_index] }} de
-            {{ page.date | date: "%Y" }}
-        </p>
-        <h1 class="text-4xl font-inconsolata font-bold">{{ page.title }}</h1>
+    
+    <!-- La caja blanca que envuelve todo tu cuento, imagen y títulos -->
+    <div class="tarjeta-blanca-post">
+        
+        <!-- Ahora el título arranca directo, sin la fecha arriba -->
+        <div class="pt-2 sm:pb-2 text-center">
+            <h1 class="text-4xl font-inconsolata font-bold text-gray-900">{{ page.title }}</h1>
+        </div>
+        
+        <img src="{{ page.image }}" alt="{{ page.title }}" class="w-full rounded-sm my-6" />
+        
+        <!-- El texto de tus cuentos aquí adentro -->
+        <div class="space-y-4 cuerpo-del-cuento">{{ content }}</div>
+        
     </div>
-    <img src="{{ page.image }}" alt="{{ page.title }}" class="w-full" />
-    <div class="space-y-4">{{ content }}</div>
+    
+    <!-- Las flechas para ir al cuento anterior o siguiente quedan abajo, sueltas y elegantes -->
     {% if page.previous or page.next %}
-    <nav class="font-inconsolata flex justify-between font-bold text-lg">
+    <nav class="font-inconsolata flex justify-between font-bold text-lg pt-4">
         {% if page.previous %}
-        <a href="{{ page.previous.url }}" class="flex items-center w-1/2">
+        <a href="{{ page.previous.url }}" class="flex items-center w-1/2 text-amber-900 hover:underline">
             <span><</span>
-            <span class="leading-none px-4 hover:underline"
-                >{{ page.previous.title }}</span
-            >
+            <span class="leading-none px-4">{{ page.previous.title }}</span>
         </a>
         {% endif %} {% if page.next %}
         <a
             href="{{ page.next.url }}"
-            class="ml-auto flex items-center justify-end w-1/2"
+            class="ml-auto flex items-center justify-end w-1/2 text-amber-900 hover:underline"
         >
-            <span class="leading-none text-right px-4 hover:underline"
-                >{{ page.next.title }}</span
-            >
+            <span class="leading-none text-right px-4">{{ page.next.title }}</span>
             <span>></span>
         </a>
         {% endif %}
     </nav>
     {% endif %}
 </article>
+
+<!-- El decorador (CSS): Controla el fondo de la página y la caja blanca del cuento -->
+<style>
+  /* 1. Color de fondo para toda la pantalla del post */
+  body {
+    background-color: #eae3c9 !important; /* Tono crema/arena suave */
+    background-image: none !important;    /* Quita texturas pesadas para concentrar la lectura */
+  }
+
+  /* 2. La caja blanca que contiene el cuento */
+  .tarjeta-blanca-post {
+    background-color: white !important;
+    color: #1a1a1a !important;
+    padding: 40px !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important; /* Sombra suave para dar volumen */
+    margin-top: 20px !important;
+  }
+
+  /* 3. Formato literario automático para los párrafos */
+  .cuerpo-del-cuento p {
+    text-align: justify !important;
+    text-indent: 2.5em !important;
+    font-size: 1.15rem !important;
+    line-height: 1.7 !important;
+    margin-bottom: 1.5em !important;
+  }
+
+  /* Excepciones de sangría (imágenes o guiones de diálogo) */
+  .cuerpo-del-cuento p:has(img), 
+  .cuerpo-del-cuento p:match(/^-/) {
+    text-indent: 0 !important;
+  }
+</style>

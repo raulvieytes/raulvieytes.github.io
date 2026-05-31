@@ -8,27 +8,44 @@ title: Home
   .break-inside-avoid-column {
     background-color: rgba(242, 231, 177, 0.80) !important;
   }
+
+  /* El estilo para tu frase CENTRADA en una sola línea */
+  .frase-inicio-centrada {
+    color: rgb(98, 56, 7) !important;   /* Tu color exacto R:98 G:56 B:7 */
+    font-weight: bold !important;      /* Bien en negrita */
+    font-size: 1.35rem !important;     /* Tamaño elegante */
+    text-align: center !important;     /* Centrada */
+    background: transparent !important; /* Fondo transparente */
+    padding-top: 20px !important;      /* Despegada del menú de arriba */
+    padding-bottom: 40px !important;   /* Aire generoso antes de los cuentos */
+    width: 100% !important;
+  }
 </style>
 
+<!-- Fondo fijo con la textura del cuadro 25 -->
 <div style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; background-image: url('/assets/img/cuadro-25.jpg'); background-repeat: repeat; background-attachment: fixed; z-index: -9999; pointer-events: none;"></div>
 
-<div
-    class="columns-1 gap-5 px-6 pt-6 sm:columns-3 sm:px-0 sm:pt-0 lg:columns-4"
->
+<!-- Contenedor de la frase suelta a lo ancho (Sin comillas en las puntas) -->
+<div class="w-full px-6">
+  <div class="frase-inicio-centrada">
+    Cuando Dios dijo יְהִ  אוֹר (“ser luz”), enseguida cerró los ojos y siguió durmiendo varios millones de años más.
+  </div>
+</div>
+
+<!-- El mosaico con todos tus posts/cuentos -->
+<div class="columns-1 gap-5 px-6 pt-6 sm:columns-3 sm:px-0 sm:pt-0 lg:columns-4">
     {% for post in site.posts %}
     <a href="{{ post.url }}">
-        <div
-            class="mb-5 break-inside-avoid-column overflow-hidden rounded-md border hover:border-orange-600"
-        >
+        <div class="mb-5 break-inside-avoid-column overflow-hidden rounded-md border hover:border-orange-600">
             <img src="{{ post.image }}" alt="{{ post.title }}" class="w-full" />
             <div class="mt-1 space-y-2 px-5 py-4">
                 <h2 class="font-inconsolata text-xl leading-none font-bold">
                     {{ post.title }}
                 </h2>
                 <div class="sm:text-sm">
-                    {% assign excerpt_text = post.excerpt | strip_html |
-                    strip_newlines | strip %} {% assign truncated = excerpt_text
-                    | truncatewords: 30, '...' %} {{ truncated }}
+                    {% assign excerpt_text = post.excerpt | strip_html | strip_newlines | strip %} 
+                    {% assign truncated = excerpt_text | truncatewords: 30, '...' %} 
+                    {{ truncated }}
                 </div>
             </div>
         </div>

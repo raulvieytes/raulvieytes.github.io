@@ -2,13 +2,56 @@
 layout: default
 ---
 
-<div
-    class="p-6 flex-1 items-center grid grid-cols-1 md:grid-cols-2 align-middle gap-6 sm:gap-8"
->
+<!-- Tu contenedor original que divide la pantalla en dos -->
+<div class="p-6 flex-1 items-center grid grid-cols-1 md:grid-cols-2 align-middle gap-6 sm:gap-8">
+    
+    <!-- Tu foto de perfil -->
     <img
         alt="me"
         class="max-h-[70vh] ml-auto aspect-square object-cover"
         src="/assets/img/foto-raul.jpeg"
     />
-    <div class="space-y-4">{{content}}</div>
+    
+    <!-- La tarjeta blanca para tu biografía -->
+    <div class="tarjeta-blanca-texto">
+        {{ content }}
+    </div>
+    
 </div>
+
+<!-- El estilo del fondo general, la tarjeta y los links en azul -->
+<style>
+  body {
+    background-image: url('/assets/img/cuadro-26.jpg') !important;
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+  }
+  
+  .tarjeta-blanca-texto {
+    background-color: white !important;
+    color: #1a1a1a !important;
+    padding: 35px !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2) !important;
+    max-width: 650px;
+  }
+
+  .tarjeta-blanca-texto p {
+    text-indent: 30px !important;
+    margin-bottom: 1.2em !important;
+    text-align: justify !important;
+    line-height: 1.6 !important;
+  }
+
+  .tarjeta-blanca-texto a {
+    color: #0066cc !important;
+    text-decoration: underline !important;
+    font-weight: 500 !important;
+  }
+  
+  .tarjeta-blanca-texto a:hover {
+    color: #004499 !important;
+  }
+</style>
