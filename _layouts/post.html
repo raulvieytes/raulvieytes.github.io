@@ -2,27 +2,22 @@
 layout: default
 ---
 
-<!-- Mantenemos lang="es" para cuando se activen los guiones en el celular -->
-<article class="p-6 sm:p-0 space-y-8 sm:space-y-6 sm:max-w-3xl mx-auto" lang="es">
+<article class="p-6 sm:p-0 space-y-8 sm:space-y-6 sm:max-w-3xl mx-auto">
     
-    <!-- La caja blanca que envuelve todo tu cuento, imagen y títulos -->
     <div class="tarjeta-blanca-post">
         
-        <!-- El título: mediano en celular (text-2xl) y grande en PC (md:text-4xl) -->
         <div class="pt-2 sm:pb-2 text-center">
             <h1 class="text-2xl md:text-4xl font-inconsolata font-bold text-gray-900">{{ page.title }}</h1>
         </div>
         
         <img src="{{ page.image }}" alt="{{ page.title }}" class="w-full rounded-sm my-6" />
         
-        <!-- El contenedor del cuento queda limpio y hereda las reglas del estilo de abajo -->
-        <div class="space-y-4 cuerpo-del-cuento text-justify text-sm md:text-xl">
+        <div class="space-y-4 cuerpo-del-cuento text-left md:text-justify text-sm md:text-xl">
             {{ content }}
         </div>
         
     </div>
     
-    <!-- Las flechas para ir al cuento anterior o siguiente quedan abajo, sueltas y elegantes -->
     {% if page.previous or page.next %}
     <nav class="font-inconsolata flex justify-between font-bold text-lg pt-4">
         {% if page.previous %}
@@ -43,7 +38,6 @@ layout: default
     {% endif %}
 </article>
 
-<!-- El decorador (CSS): Controla el fondo de la página y la caja blanca del cuento -->
 <style>
   /* 1. Color de fondo para toda la pantalla del post */
   body {
@@ -68,17 +62,9 @@ layout: default
     margin-bottom: 1.5em !important;
   }
 
-  /* Excepciones de sangría (imágenes) */
-  .cuerpo-del-cuento p:has(img) {
+  /* Excepciones de sangría (imágenes o guiones de diálogo) */
+  .cuerpo-del-cuento p:has(img), 
+  .cuerpo-del-cuento p:match(/^-/) {
     text-indent: 0 !important;
-  }
-
-  /* 4. INTERRUPTOR DE GUIONES: Se activa en el simulador/celular (menos de 1024px) y se apaga en PC completa */
-  @media (max-w: 1023px) {
-    .cuerpo-del-cuento, .cuerpo-del-cuento p {
-      hyphens: auto !important;
-      -webkit-hyphens: auto !important;
-      -ms-hyphens: auto !important;
-    }
   }
 </style>

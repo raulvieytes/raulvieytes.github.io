@@ -19,6 +19,6 @@ La voz de ella era como un licor seminal -fértil de un universo de contenidos- 
 
 ¿Qué? ¿Qué podía parir un oído? Interesante pregunta, quién dice que no. Algo audible sublimado.   
 
-Varias capas superpuestas de esmalte de distintos colores. La voz enfatizó su rechazo a la idea de que la vida fuera solo nacer y -al cabo de un lapso indeterminado- morir, con una cantidad de números rodeando la cosa. Ni siempre, ni en todas partes, el tiempo ha sido asociado con los números. Y es lógico que así sea, los números no tienen nada que ver con el tiempo. Y cuando eso fue dicho, ella experimentó una erección de su diploma.   
+Varias capas superpuestas de esmalte de distintos colores. La voz enfatizó su rechazo a la idea de que la vida fuera solo nacer y -al cabo de un lapso indeterminado- morir, con una cantidad de números rodeando la cosa. Ni siempre, ni en todas partes, el tiempo ha sido asociado con los números. Y es lógico que así sea, los números no tienen nada que ver con el tiempo. En cambio la fiebre, sí: la fiebre era un número. Y cuando eso fue dicho, ella experimentó una erección de su diploma.   
 
 Ella, en apariencia humana, era la encarnación de un ser del más allá, con un intelecto joven, goliárdico y extravagante, inteligente para conocer algo más y mejor que la pedantería.
