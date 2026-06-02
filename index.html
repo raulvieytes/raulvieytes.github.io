@@ -13,12 +13,20 @@ title: Home
   .frase-inicio-centrada {
     color: rgb(98, 56, 7) !important;   /* Tu color exacto R:98 G:56 B:7 */
     font-weight: bold !important;      /* Bien en negrita */
-    font-size: 1.35rem !important;     /* Tamaño elegante */
+    font-size: 1.35rem !important;     /* En la PC se queda grande y potente como estaba */
     text-align: center !important;     /* Centrada */
     background: transparent !important; /* Fondo transparente */
     padding-top: 20px !important;      /* Despegada del menú de arriba */
     padding-bottom: 40px !important;   /* Aire generoso antes de los cuentos */
     width: 100% !important;
+  }
+
+  /* INTERRUPTOR PARA EL CELULAR: Solo si la pantalla es chica, le baja el tamaño a la frase */
+  @media (max-w: 639px) {
+    .frase-inicio-centrada {
+      font-size: 1.10rem !important;   /* Tamaño más estilizado y cómodo para la pantalla del teléfono */
+      padding-bottom: 25px !important; /* Un poquito menos de aire abajo en el celular */
+    }
   }
 </style>
 
@@ -34,21 +42,21 @@ title: Home
 
 <!-- El mosaico con todos tus posts/cuentos -->
 <div class="columns-1 gap-5 px-6 pt-6 sm:columns-3 sm:px-0 sm:pt-0 lg:columns-4">
-    {% for post in site.posts %}
+  {% for post in site.posts %}
     <a href="{{ post.url }}">
-        <div class="mb-5 break-inside-avoid-column overflow-hidden rounded-md border hover:border-orange-600">
-            <img src="{{ post.image }}" alt="{{ post.title }}" class="w-full" />
-            <div class="mt-1 space-y-2 px-5 py-4">
-                <h2 class="font-inconsolata text-xl leading-none font-bold">
-                    {{ post.title }}
-                </h2>
-                <div class="sm:text-sm">
-                    {% assign excerpt_text = post.excerpt | strip_html | strip_newlines | strip %} 
-                    {% assign truncated = excerpt_text | truncatewords: 30, '...' %} 
-                    {{ truncated }}
-                </div>
-            </div>
+      <div class="mb-5 break-inside-avoid-column overflow-hidden rounded-md border hover:border-orange-600">
+        <img src="{{ post.image }}" alt="{{ post.title }}" class="w-full" />
+        <div class="mt-1 space-y-2 px-5 py-4">
+          <h2 class="font-inconsolata text-xl leading-none font-bold">
+            {{ post.title }}
+          </h2>
+          <div class="sm:text-sm">
+            {% assign excerpt_text = post.excerpt | strip_html | strip_newlines | strip %} 
+            {% assign truncated = excerpt_text | truncatewords: 30, '...' %} 
+            {{ truncated }}
+          </div>
         </div>
+      </div>
     </a>
-    {% endfor %}
+  {% endfor %}
 </div>
