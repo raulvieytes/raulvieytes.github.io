@@ -7,7 +7,7 @@ image: https://raw.githubusercontent.com/raulvieytes/raulvieytes.github.io/refs/
 
 ¿De qué? De otro tipo de fenómenos paranormales u otra materia menos específica. Como decía la frase, los tontos andaban apurados por donde los ángeles tenían miedo de pisar. El espacio entre un tren y el siguiente -el que venía detrás- también se desplazaba cuando avanzaban los trenes: era como un tren de aire, muy extenso y transparente, en el que también podías viajar (desde un lugar hasta el mismo). 
 
-Ella era transparente como ese espacio que separaba el tren de la hora presente y el siguiente, que arribaría a este mismo punto minutos algo después. Podía ocuparlo todo con una palabra larga: las palabras largas tenían algo de palabra corta distendida. Así “mate” -por ejemplo, al distenderse- daría como resultado “matemáticas” -o andá a saber qué, matemáticamente.    
+Ella era transparente como ese espacio que separaba el tren de la hora presente y el siguiente, que arribaría a este mismo punto minutos algo después. Podía ocuparlo todo con una palabra larga: las palabras largas tenían algo de palabra corta distendida. Así “mate” -por ejemplo, al distenderse- nos daría como resultado “matemáticas” -o andá a saber qué, matemáticamente.    
 
 ¿Los trenes eran poéticos? Esos listones pesados, de madera durísima, de acero, de hormigón o de plástico reciclado, asentados en el suelo a distancias regulares, paralelos entre sí, sobre los que se fijan los rieles de las vías, se llamaban durmientes. Habían nacido poéticos, los podía imaginar a todos soñando al unísono, unisoñando, los sueños de cada uno como parte de un sueño colectivo, una colección enorme de sueños. ¿Se despertaban los durmientes cuando el tren les pasaba por encima?   
 

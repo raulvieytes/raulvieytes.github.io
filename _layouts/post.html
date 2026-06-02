@@ -7,15 +7,17 @@ layout: default
     <!-- La caja blanca que envuelve todo tu cuento, imagen y títulos -->
     <div class="tarjeta-blanca-post">
         
-        <!-- Ahora el título arranca directo, sin la fecha arriba -->
+        <!-- El título: mediano en celular (text-2xl) y grande en PC (md:text-4xl) -->
         <div class="pt-2 sm:pb-2 text-center">
-            <h1 class="text-4xl font-inconsolata font-bold text-gray-900">{{ page.title }}</h1>
+            <h1 class="text-2xl md:text-4xl font-inconsolata font-bold text-gray-900">{{ page.title }}</h1>
         </div>
         
         <img src="{{ page.image }}" alt="{{ page.title }}" class="w-full rounded-sm my-6" />
         
-        <!-- El texto de tus cuentos aquí adentro -->
-        <div class="space-y-4 cuerpo-del-cuento">{{ content }}</div>
+        <!-- El texto de tus cuentos: Justificado en ambos, pero más chico en celular (text-sm) y grande en PC (md:text-xl) -->
+        <div class="space-y-4 cuerpo-del-cuento text-justify text-sm md:text-xl">
+            {{ content }}
+        </div>
         
     </div>
     
@@ -58,11 +60,9 @@ layout: default
     margin-top: 20px !important;
   }
 
-  /* 3. Formato literario automático para los párrafos */
+  /* 3. Formato literario automático para los párrafos (Volvió la sangría para todos) */
   .cuerpo-del-cuento p {
-    text-align: justify !important;
-    text-indent: 2.5em !important;
-    font-size: 1.15rem !important;
+    text-indent: 2.5em !important; /* Sangría clásica tanto en celular como en PC */
     line-height: 1.7 !important;
     margin-bottom: 1.5em !important;
   }

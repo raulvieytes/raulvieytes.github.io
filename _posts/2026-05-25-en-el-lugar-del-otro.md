@@ -17,8 +17,8 @@ Se sacó los anteojos. Ese día también estaba numerado (era normal que los dí
 
 La voz de ella era como un licor seminal -fértil de un universo de contenidos- que embarazaba los oídos de la audiencia concurrente: ella decía lo que los oídos deseaban. Y en un momento dijo algo que generó aplausos, aplausos, aplausos, aplausos. Ella era el Tiempo. Todos esos oídos abiertos, penetrados, gozaban. Entonces se pusieron a bailar, los oídos, como si la voz de ella fuera una pieza musical (quizá lo era, por fuera de toda idea de melodía, armonía y poesía). Sin embargo -a ver si conseguía hacerme entender- no bailaban las orejas sino los oídos, externos e internos, martillo, yunque y estribo. Y mientras bailaban fertilizados por la voz, parían...    
 
-¿Qué? ¿Qué podía parir un oído? Interesante pregunta. Algo audible sublimado.   
+¿Qué? ¿Qué podía parir un oído? Interesante pregunta, quién dice que no. Algo audible sublimado.   
 
-Varias capas de esmalte superpuestas, de distintos colores. La voz enfatizó su rechazo a la idea de que la vida fuera solo nacer y -al cabo de un lapso indeterminado- morir, con un montón de números rodeando la cosa. Y cuando eso fue dicho, ella sintió que su diploma experimentaba una erección.   
+Varias capas superpuestas de esmalte de distintos colores. La voz enfatizó su rechazo a la idea de que la vida fuera solo nacer y -al cabo de un lapso indeterminado- morir, con una cantidad de números rodeando la cosa. Ni siempre, ni en todas partes, el tiempo ha sido asociado con los números. Y es lógico que así sea, los números no tienen nada que ver con el tiempo. Y cuando eso fue dicho, ella experimentó una erección de su diploma.   
 
 Ella, en apariencia humana, era la encarnación de un ser del más allá, con un intelecto joven, goliárdico y extravagante, inteligente para conocer algo más y mejor que la pedantería.
