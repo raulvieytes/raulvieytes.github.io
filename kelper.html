@@ -1,0 +1,46 @@
+---
+layout: default
+permalink: /libros/kelper/
+---
+
+<div class="max-w-3xl mx-auto px-6 py-10 space-y-10">
+
+    <!-- Encabezado del Libro -->
+    <div class="text-center space-y-4">
+        <h1 class="font-inconsolata text-4xl font-bold text-gray-900">Kelper</h1>
+        <p class="text-sm text-amber-900 font-bold uppercase tracking-wider">Libro Publicado y Premiado</p>
+        <div class="w-24 h-0.5 bg-amber-900 mx-auto mt-4"></div>
+    </div>
+
+    <!-- Tu Comentario Personal (Estilo destacado) -->
+    <div class="bg-white p-6 sm:p-8 rounded-sm shadow-sm border-l-4 border-amber-800 text-justify text-base md:text-lg text-gray-800 italic leading-relaxed">
+        "Acá va el breve comentario tuyo, Raúl. Podés contar cómo fue el proceso de escritura de Kelper, las sensaciones que te dejó publicarlo, alguna anécdota del premio, o una guía íntima para el lector antes de que se sumerja en el texto."
+    </div>
+
+    <!-- Índice de Capítulos -->
+    <div class="space-y-6 pt-4">
+        <h2 class="font-inconsolata text-2xl font-bold text-gray-900 border-b border-gray-200 pb-2">
+            Índice de capítulos
+        </h2>
+        
+        <!-- Grilla de capítulos: 1 columna en celular, 2 columnas en PC -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-2 font-sans">
+            {% for i in (1..30) %}
+            <div class="py-2 border-b border-gray-100 border-dashed hover:bg-white px-2 rounded-sm transition-colors">
+                <!-- Ahora todo el título numerado es el link que abre el PDF -->
+                <a href="/assets/pdf/kelper/capitulo-{{ i }}.pdf" target="_blank" class="block text-amber-900 hover:text-amber-700 hover:underline font-medium">
+                    Capítulo {{ i }}
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Botón para volver al catálogo general -->
+    <div class="pt-8 text-center">
+        <a href="/libros" class="font-inconsolata text-sm text-gray-500 hover:text-amber-900 hover:underline">
+            ← Volver al catálogo de libros
+        </a>
+    </div>
+
+</div>
