@@ -1,6 +1,37 @@
 ---
 layout: default
 permalink: /libros/kelper/
+capitulos:
+  - "Conocí a Andrew Catcher"
+  - "El asesino vuelve al lugar del crimen"
+  - "Junio en Londres"
+  - "Los enemigos de la alegría"
+  - "Lillith"
+  - "¿Qué debe hacer un hombre?"
+  - "Paz y amor"
+  - "La reducción del cosmos"
+  - "El auxilio del hijo de Catcher"
+  - "Si es barato, llevo dos"
+  - "Nadie es perfecto"
+  - "Un bonito romance"
+  - "El cielo estaba limpio"
+  - "La visita del príncipe"
+  - "Adiós al amigo"
+  - "A ver, explícamelo"
+  - "El eslabón perdido"
+  - "Música en la radio"
+  - "Cuando no tienes nada que hacer"
+  - "Las horas de reposo"
+  - "Retrato familiar"
+  - "Mejor estábamos antes"
+  - "Hombre y espacio"
+  - "¿Cómo que no había un detective?"
+  - "Apuntes de un caballero inglés"
+  - "Todos los caminos conducen a casa"
+  - "Donde te falten cinco peniques"
+  - "Hasta la última cucharilla"
+  - "Somos la memoria"
+  - "Vivir y morir en esta isla"
 ---
 
 <div class="max-w-3xl mx-auto px-6 py-10 space-y-10">
@@ -19,17 +50,16 @@ permalink: /libros/kelper/
 
     <!-- Índice de Capítulos -->
     <div class="space-y-6 pt-4">
-        <h2 class="font-inconsolata text-2xl font-bold text-gray-900 border-b border-gray-200 pb-2">
+        <h2 class="font-inconsolata text-2xl font-bold text-gray-900 border-b border-gray-200 pb-2 text-center">
             Índice de capítulos
         </h2>
         
-        <!-- Grilla de capítulos: 1 columna en celular, 2 columnas en PC -->
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-x-12 gap-y-2 font-sans">
-            {% for i in (1..30) %}
+        <!-- Lista en una sola columna y con el texto centrado -->
+        <div class="grid grid-cols-1 gap-y-2 font-sans text-center">
+            {% for nombre in page.capitulos %}
             <div class="py-2 border-b border-gray-100 border-dashed hover:bg-white px-2 rounded-sm transition-colors">
-                <!-- Ahora todo el título numerado es el link que abre el PDF -->
-                <a href="/assets/pdf/kelper/capitulo-{{ i }}.pdf" target="_blank" class="block text-amber-900 hover:text-amber-700 hover:underline font-medium">
-                    Capítulo {{ i }}
+                <a href="/assets/pdf/kelper/capitulo-{{ forloop.index }}.pdf" target="_blank" class="block text-amber-900 hover:text-amber-700 hover:underline font-medium">
+                    Capítulo {{ forloop.index }}: {{ nombre }}
                 </a>
             </div>
             {% endfor %}
