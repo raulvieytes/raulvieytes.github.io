@@ -1,0 +1,91 @@
+---
+layout: default
+permalink: /libros/belgrano/
+title: "¿A quién le importa si Belgrano era homosexual?"
+capitulos:
+  - "LA PREGUNTA: ¿A QUIÉN LE IMPORTA?"
+  - "EL MITO DE OSVALDO BAZÁN"
+  - "LA VOZ AFLAUTADA (GENEALOGÍA DE UN DISPARATE)"
+  - "LA RISA DE DORREGO"
+  - "SI TIENE HIJOS, ENTONCES NO ES GAY"
+  - "NUESTRO PEPE"
+  - "ALIAS “PÍCHEGRU”"
+  - "BIBLIOGRAFÍA"
+---
+<!-- Importamos la fuente Playfair Display desde Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600;1,800&display=swap" rel="stylesheet">
+
+<!-- Forzamos a la barra de navegación de arriba a teñirse con tu color exacto -->
+<style>
+    header, nav, .nav-container, #header {
+        background-color: #FBF6DF !important;
+    }
+    body {
+        background-color: #FBF6DF !important;
+    }
+    /* Estilo personalizado para el título principal tipográfico */
+    .titulo-gay {
+        font-family: 'Playfair Display', serif;
+        font-style: italic;
+        color: #FFFFFF !important;
+        text-shadow: 1px 1px 3px rgba(74, 114, 153, 0.6) !important;
+    }
+    /* Clase auxiliar para aplicar el efecto calado con sombra sutil en el índice */
+    .calado-patrio {
+        color: #FFFFFF !important;
+        text-shadow: 1px 1px 3px rgba(74, 114, 153, 0.7) !important;
+    }
+</style>
+
+<!-- Aquí aplicamos la foto al 50% de su tamaño original, centrada y fija -->
+<div class="w-full min-h-screen bg-center bg-no-repeat bg-fixed py-10 px-4 sm:px-6" 
+     style="background-image: url('/assets/img/manuel_belgrano.jpg') !important; background-size: 50% auto;">
+    
+    <div class="max-w-3xl mx-auto space-y-8">
+
+        <!-- Caja del Título: Fondo celeste bandera -->
+        <div class="p-8 sm:p-12 rounded-sm shadow-md text-center relative overflow-hidden" style="background-color: #74ACDF !important;">
+            <h1 class="titulo-gay text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-wide leading-tight px-2">
+                ¿A quién le importa si Belgrano era homosexual?
+            </h1>
+        </div>
+
+        <!-- Tu Comentario Personal -->
+        <div class="bg-white p-6 sm:p-8 rounded-sm shadow-md border-l-4 border-amber-800 text-justify text-base md:text-lg text-gray-800 italic leading-relaxed">
+            "Acá va el breve comentario tuyo, Raúl. Podés contar cómo fue el proceso de escritura de este libro, las sensaciones que te dejó publicarlo, alguna anécdota del premio, o una guía íntima para el lector antes de que se sumerja en el texto."
+        </div>
+
+        <!-- Índice de Capítulos: Celeste bandera, letras blancas, shadow sutil y sin numeración -->
+        <div class="p-6 sm:p-8 rounded-sm shadow-md space-y-6" style="background-color: #74ACDF !important;">
+            <h2 class="font-inconsolata text-2xl font-bold text-center pb-2 border-b border-white/30 calado-patrio">
+                Incluye:
+            </h2>
+            
+            <div class="grid grid-cols-1 gap-y-1 font-sans text-center">
+                {% for nombre in page.capitulos %}
+                <div class="py-2 border-b border-white/20 border-dashed hover:bg-white/10 px-2 rounded-sm transition-colors">
+                    {% if nombre == "BIBLIOGRAFÍA" %}
+                    <a href="/assets/pdf/belgrano/bibliografia.pdf" target="_blank" class="block hover:underline font-medium calado-patrio">
+                        {{ nombre }}
+                    </a>
+                    {% else %}
+                    <a href="/assets/pdf/belgrano/capitulo-{{ forloop.index }}.pdf" target="_blank" class="block hover:underline font-medium calado-patrio">
+                        {{ nombre }}
+                    </a>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+
+        <!-- Botón para volver al catálogo general -->
+        <div class="text-center">
+            <a href="/libros" class="inline-block bg-white/90 backdrop-blur-xs px-4 py-2 rounded-sm shadow-xs font-inconsolata text-sm text-gray-700 hover:text-amber-900 hover:underline">
+                ← Volver al catálogo de libros
+            </a>
+        </div>
+
+    </div>
+</div>
