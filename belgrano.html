@@ -53,8 +53,8 @@ capitulos:
         </div>
 
         <!-- Tu Comentario Personal -->
-        <div class="bg-white p-6 sm:p-8 rounded-sm shadow-md border-l-4 border-amber-800 text-justify text-base md:text-lg text-gray-800 italic leading-relaxed">
-            "Acá va el breve comentario tuyo, Raúl. Podés contar cómo fue el proceso de escritura de este libro, las sensaciones que te dejó publicarlo, alguna anécdota del premio, o una guía íntima para el lector antes de que se sumerja en el texto."
+        <div class="bg-white p-6 sm:p-8 rounded-sm shadow-md border-l-4 border-amber-800 text-center text-base md:text-lg text-gray-800 italic leading-relaxed">
+            Reflexionando sobre la investigación que da como resultado este libro, creo que si no se tiene en cuenta la sexualidad de Belgrano no se entiende su historia, por qué hace lo que hace, ni se encuentra donde está en cada momento de su vida. Existen, a mi parecer, personajes históricos en los cuales el elemento sexual -luego el deseo, eso que les da ganas de hacer determinadas cosas- es tan intenso que, incluso reprimido, funciona como un mobile de primer orden en su desempeño público y privado, no solo porque es una compulsión persistente que empuja al individuo hacia objetos libidinales bien definidos, sino a causa de la manera en que se lo percibe y las reacciones que provoca en su entorno social, la atracción apasionada tanto como el rechazo de la gente a su alrededor.
         </div>
 
         <!-- Índice de Capítulos: Celeste bandera, letras blancas, shadow sutil y sin numeración -->
@@ -67,11 +67,11 @@ capitulos:
                 {% for nombre in page.capitulos %}
                 <div class="py-2 border-b border-white/20 border-dashed hover:bg-white/10 px-2 rounded-sm transition-colors">
                     {% if nombre == "BIBLIOGRAFÍA" %}
-                    <a href="/assets/pdf/belgrano/bibliografia.pdf" target="_blank" class="block hover:underline font-medium calado-patrio">
+                    <a href="/assets/pdf/belgrano/belgrano-capitulo-08.pdf" target="_blank" class="block hover:underline font-medium calado-patrio">
                         {{ nombre }}
                     </a>
                     {% else %}
-                    <a href="/assets/pdf/belgrano/capitulo-{{ forloop.index }}.pdf" target="_blank" class="block hover:underline font-medium calado-patrio">
+                    <a href="/assets/pdf/belgrano/belgrano-capitulo-0{{ forloop.index }}.pdf" target="_blank" class="block hover:underline font-medium calado-patrio">
                         {{ nombre }}
                     </a>
                     {% endif %}
