@@ -2,7 +2,7 @@
 title: Un océano blanco
 layout: post
 author: Raúl Vieytes
-image: https://raw.githubusercontent.com/raulvieytes/raulvieytes.github.io/refs/heads/main/assets/img/cuadro 18.jpg
+image: assets/img/cuadro 18.jpg
 ---
 
 Se extendía con profundidad alcalina, rodeado de horizonte. Acá y allá, una que otra isla. La blancura insulsa como un manto de tranquilidad apenas ondulado por la marea, la superficie animada por resortes sumergidos.  

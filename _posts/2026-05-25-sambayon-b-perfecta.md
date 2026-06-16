@@ -2,7 +2,7 @@
 title: Perfecta
 layout: post
 author: Raúl Vieytes
-image: https://raw.githubusercontent.com/raulvieytes/raulvieytes.github.io/refs/heads/main/assets/img/cuadro 19.jpg
+image: assets/img/cuadro 19.jpg
 ---
 
 Cada envoltorio tenía su característica. Eran los límites de la tecnología, se dijo. ¿Lo eran? Olió el perfume, cítrico. Terminada su rutina, arrastró sus pasos hasta la cama y se acostó. Le gustaba, antes de dormirse, recordar los detalles del desfile. La ropa también era una envoltura, apropiada o no para cada situación: envoltorio y situación contextual entraban en relación dialéctica, al valorar qué tanto podían adecuarse entre sí, en cada momento. La ropa de cama no era adecuada para un desfile, ni la ropa del desfile lo era para dormir. Sin embargo, con los párpados entrecerrados, como estaba ahora, ambas escenas se plegaban sobre el mismo instante y quedaban solapadas, envolviéndolo para regalo. La ropa de cama de quien se recordaba con la ropa del desfile no podía ser más pertinente. Se envolvió también con la sábana y la frazada.  

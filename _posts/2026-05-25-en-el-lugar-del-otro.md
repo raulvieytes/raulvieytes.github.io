@@ -2,7 +2,7 @@
 title: En el lugar del otro
 layout: post
 author: Raúl Vieytes
-image: https://raw.githubusercontent.com/raulvieytes/raulvieytes.github.io/refs/heads/main/assets/img/cuadro-23.jpg
+image: assets/img/cuadro-23.jpg
 ---
 
 Qué grande era su diploma. Y eso que pertenecía a aquel grupo de mujeres que tenían unos diplomas así de grandes. Cuando ella se balanceaba juguetona, para admiración del mundo académico, le pendulaba el diploma como un badajo. Era un diploma de la universidad más importante del mundo más importante de la galaxia más importante del universo. Cuando lo daba a luz te dejaba bizca. Fascinante. Nada que ver con otras catedráticas diplomadas, pero que tampoco estaban mal, en absoluto. Los animales de la jungla, de la granja y de la ciudad, incluso los menos famosos, agradecidos a ella, por qué. Y a su diploma, obvio. 
