@@ -15,6 +15,17 @@
             src="https://cdn.jsdelivr.net/npm/@tailwindplus/elements@1"
             type="module"
         ></script>
+
+        <!-- Bloque de estilos para fijar la imagen de fondo cuadro-25.jpg -->
+        <style>
+            body {
+                background-image: url('/assets/img/cuadro-25.jpg') !important;
+                background-repeat: no-repeat !important;
+                background-size: cover !important;
+                background-position: top !important;
+                background-attachment: fixed !important;
+            }
+        </style>
     </head>
 
     <body class="container mx-auto min-h-dvh flex flex-col font-roboto">
@@ -22,7 +33,9 @@
     class="flex items-baseline justify-between border-b px-6 py-7 sm:border-none sm:px-0"
 >
     <a href="/"><h1 class="font-yuji-boku -mt-1 text-4xl">Raúl Vieytes</h1></a>
-    <nav class="hidden md:block"><ul class="font-inconsolata flex flex-col md:flex-row gap-6 text-lg">
+    <nav class="hidden md:block">
+        <!-- Agregada la clase font-bold al menú de PC -->
+        <ul class="font-inconsolata font-bold flex flex-col md:flex-row gap-6 text-lg">
 
     <li>
         <a
@@ -86,6 +99,7 @@
                 d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
                 stroke-linecap="round"
                 stroke-linejoin="round"
+                
             />
         </svg>
         <svg
@@ -101,12 +115,14 @@
                 d="M6 18 18 6M6 6l12 12"
                 stroke-linecap="round"
                 stroke-linejoin="round"
+                
             />
         </svg>
     </button>
 </header>
 <el-disclosure id="mobile-menu" hidden class="block border-b p-6 md:hidden">
-    <ul class="font-inconsolata flex flex-col md:flex-row gap-6 text-lg">
+    <!-- Agregada la clase font-bold también al menú móvil -->
+    <ul class="font-inconsolata font-bold flex flex-col md:flex-row gap-6 text-lg">
 
     <li>
         <a
@@ -151,35 +167,32 @@
 </ul>
 
 </el-disclosure>
- <!-- Contenedor principal que envuelve todos tus libros (máximo 3 columnas de ancho en PC para que no se disperse) -->
+ <!-- Contenedor principal que envuelve todos tus libros -->
 <div class="max-w-4xl mx-auto px-6 py-8 space-y-16">
 
     
-    <!-- Cada libro es una fila limpia: En PC pone el texto a la izquierda y la foto a la derecha (md:flex-row) -->
-    <div class="flex flex-col md:flex-row items-center md:items-start gap-8 border-b border-gray-200 pb-12 last:border-0">
+    <!-- Fila limpia del libro -->
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-8 pb-12 border-b border-gray-200 last:border-0">
         
-        <!-- Bloque Izquierdo: Título y Reseña del libro -->
-        <div class="flex-1 space-y-4 text-justify md:text-left">
+        <!-- Bloque Izquierdo: Solo el Texto envuelto en la caja blanca con esquinas redondeadas -->
+        <div class="flex-1 space-y-4 text-justify md:text-left bg-white p-6 rounded-lg shadow-sm">
             <h2 class="font-inconsolata text-3xl font-bold text-gray-900 tracking-tight">
                 Kelper
             </h2>
             
             <!-- El texto de avance o reseña con tipografía cómoda y JUSTIFICADO -->
             <div class="text-justify text-base text-gray-700 leading-relaxed font-sans">
-                “El” libro de Vieytes, por el cual se hizo conocido -si acaso lo fuese en absoluto. Como quien lo escribió no idolatra el fetiche de la autoría y los derechos de autor, se presenta aquí para leerlo y/o copiarlo, en todo o en parte, sin pagar nada ni pedirle permiso a nadie (<i>Nota bene</i>: se les ruega a todos los editores del mundo que disculpen la herejía).
+                “El” libro de Vieytes, por el cual se hizo conocido -si acaso lo fuese en absoluto. Como quien lo escribió no idolatra el fetiche de la autoría y los derechos de autor, se presents aquí para leerlo y/o copiarlo, en todo o en parte, sin pagar nada ni pedirle permiso a nadie (<i>Nota bene</i>: se les ruega a todos los editores del mundo que disculpen la herejía).
             </div>
-            
-            <!-- Un botón limpio por si en el futuro querés linkear el PDF o la compra -->
             
             <div class="pt-2">
                 <a href="/libros/kelper/" target="_blank" class="inline-block font-inconsolata font-bold text-sm text-amber-900 hover:underline">
                     Ver más sobre el libro →
                 </a>
             </div>
-            
         </div>
 
-        <!-- Bloque Derecho: La pequeña ilustración o portada -->
+        <!-- Bloque Derecho: Portada limpia afuera de la caja de texto -->
         <div class="w-48 sm:w-56 flex-shrink-0 order-first md:order-last">
             <div class="overflow-hidden rounded-sm shadow-md bg-white p-2 border border-gray-100">
                 <img src="/assets/img/kelper_tapita.jpg" alt="Kelper" class="w-full object-cover" />
@@ -188,11 +201,11 @@
 
     </div>
     
-    <!-- Cada libro es una fila limpia: En PC pone el texto a la izquierda y la foto a la derecha (md:flex-row) -->
-    <div class="flex flex-col md:flex-row items-center md:items-start gap-8 border-b border-gray-200 pb-12 last:border-0">
+    <!-- Fila limpia del libro -->
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-8 pb-12 border-b border-gray-200 last:border-0">
         
-        <!-- Bloque Izquierdo: Título y Reseña del libro -->
-        <div class="flex-1 space-y-4 text-justify md:text-left">
+        <!-- Bloque Izquierdo: Solo el Texto envuelto en la caja blanca con esquinas redondeadas -->
+        <div class="flex-1 space-y-4 text-justify md:text-left bg-white p-6 rounded-lg shadow-sm">
             <h2 class="font-inconsolata text-3xl font-bold text-gray-900 tracking-tight">
                 ¿A quién le importa si Belgrano era homosexual?
             </h2>
@@ -202,17 +215,14 @@
                 Este ensayo no tiene como objetivo demostrar la homosexualidad del general Manuel Belgrano -que a quién le importa- sino que apunta a exponer la inconsistencia de los discursos construidos sobre el tema por historiadores y comentaristas, aparentemente puestos en la -curiosa- necesidad de responder algo sobre el asunto, textos que expresan en forma alarmante los prejuicios homófobos de académicos, escritores y periodistas argentinos, mientras que no dicen nada real acerca del personaje histórico.
             </div>
             
-            <!-- Un botón limpio por si en el futuro querés linkear el PDF o la compra -->
-            
             <div class="pt-2">
                 <a href="/libros/belgrano/" target="_blank" class="inline-block font-inconsolata font-bold text-sm text-amber-900 hover:underline">
                     Ver más sobre el libro →
                 </a>
             </div>
-            
         </div>
 
-        <!-- Bloque Derecho: La pequeña ilustración o portada -->
+        <!-- Bloque Derecho: Portada limpia afuera de la caja de texto -->
         <div class="w-48 sm:w-56 flex-shrink-0 order-first md:order-last">
             <div class="overflow-hidden rounded-sm shadow-md bg-white p-2 border border-gray-100">
                 <img src="/assets/img/manuel_belgrano.jpg" alt="¿A quién le importa si Belgrano era homosexual?" class="w-full object-cover" />
@@ -221,31 +231,27 @@
 
     </div>
     
-    <!-- Cada libro es una fila limpia: En PC pone el texto a la izquierda y la foto a la derecha (md:flex-row) -->
-    <div class="flex flex-col md:flex-row items-center md:items-start gap-8 border-b border-gray-200 pb-12 last:border-0">
+    <!-- Fila limpia del libro -->
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-8 pb-12 border-b border-gray-200 last:border-0">
         
-        <!-- Bloque Izquierdo: Título y Reseña del libro -->
-        <div class="flex-1 space-y-4 text-justify md:text-left">
+        <!-- Bloque Izquierdo: Solo el Texto envuelto en la caja blanca con esquinas redondeadas -->
+        <div class="flex-1 space-y-4 text-justify md:text-left bg-white p-6 rounded-lg shadow-sm">
             <h2 class="font-inconsolata text-3xl font-bold text-gray-900 tracking-tight">
                 Lafinur
             </h2>
             
-            <!-- El texto de avance o reseña con tipografía cómoda -->
             <div class="text-base text-gray-700 leading-relaxed font-sans">
                 Bajada de relleno para Lafinur. Un recorrido ficcional o ensayístico que se despliega a lo largo de sus páginas. Estética cuidada y narrativa precisa para delinear los contornos de este volumen dentro de la colección general.
             </div>
-            
-            <!-- Un botón limpio por si en el futuro querés linkear el PDF o la compra -->
             
             <div class="pt-2">
                 <a href="#" target="_blank" class="inline-block font-inconsolata font-bold text-sm text-amber-900 hover:underline">
                     Ver más sobre el libro →
                 </a>
             </div>
-            
         </div>
 
-        <!-- Bloque Derecho: La pequeña ilustración o portada -->
+        <!-- Bloque Derecho: Portada limpia afuera de la caja de texto -->
         <div class="w-48 sm:w-56 flex-shrink-0 order-first md:order-last">
             <div class="overflow-hidden rounded-sm shadow-md bg-white p-2 border border-gray-100">
                 <img src="https://raw.githubusercontent.com/raulvieytes/raulvieytes.github.io/refs/heads/main/assets/img/cuadro 15.jpg" alt="Lafinur" class="w-full object-cover" />
@@ -254,31 +260,27 @@
 
     </div>
     
-    <!-- Cada libro es una fila limpia: En PC pone el texto a la izquierda y la foto a la derecha (md:flex-row) -->
-    <div class="flex flex-col md:flex-row items-center md:items-start gap-8 border-b border-gray-200 pb-12 last:border-0">
+    <!-- Fila limpia del libro -->
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-8 pb-12 border-b border-gray-200 last:border-0">
         
-        <!-- Bloque Izquierdo: Título y Reseña del libro -->
-        <div class="flex-1 space-y-4 text-justify md:text-left">
+        <!-- Bloque Izquierdo: Solo el Texto envuelto en la caja blanca con esquinas redondeadas -->
+        <div class="flex-1 space-y-4 text-justify md:text-left bg-white p-6 rounded-lg shadow-sm">
             <h2 class="font-inconsolata text-3xl font-bold text-gray-900 tracking-tight">
                 Historias exquisitas + 2 relatos de relleno
             </h2>
             
-            <!-- El texto de avance o reseña con tipografía cómoda -->
             <div class="text-base text-gray-700 leading-relaxed font-sans">
                 Texto de muestra para acompañar este compendio de relatos. La combinación exacta entre las historias principales y los textos satélites que completan el cuerpo del volumen, manteniendo el tono y el ritmo característicos del autor.
             </div>
-            
-            <!-- Un botón limpio por si en el futuro querés linkear el PDF o la compra -->
             
             <div class="pt-2">
                 <a href="#" target="_blank" class="inline-block font-inconsolata font-bold text-sm text-amber-900 hover:underline">
                     Ver más sobre el libro →
                 </a>
             </div>
-            
         </div>
 
-        <!-- Bloque Derecho: La pequeña ilustración o portada -->
+        <!-- Bloque Derecho: Portada limpia afuera de la caja de texto -->
         <div class="w-48 sm:w-56 flex-shrink-0 order-first md:order-last">
             <div class="overflow-hidden rounded-sm shadow-md bg-white p-2 border border-gray-100">
                 <img src="https://raw.githubusercontent.com/raulvieytes/raulvieytes.github.io/refs/heads/main/assets/img/cuadro-24.jpg" alt="Historias exquisitas + 2 relatos de relleno" class="w-full object-cover" />
@@ -287,31 +289,27 @@
 
     </div>
     
-    <!-- Cada libro es una fila limpia: En PC pone el texto a la izquierda y la foto a la derecha (md:flex-row) -->
-    <div class="flex flex-col md:flex-row items-center md:items-start gap-8 border-b border-gray-200 pb-12 last:border-0">
+    <!-- Fila limpia del libro -->
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-8 pb-12 border-b border-gray-200 last:border-0">
         
-        <!-- Bloque Izquierdo: Título y Reseña del libro -->
-        <div class="flex-1 space-y-4 text-justify md:text-left">
+        <!-- Bloque Izquierdo: Solo el Texto envuelto en la caja blanca con esquinas redondeadas -->
+        <div class="flex-1 space-y-4 text-justify md:text-left bg-white p-6 rounded-lg shadow-sm">
             <h2 class="font-inconsolata text-3xl font-bold text-gray-900 tracking-tight">
                 Anotaciones fechadas
             </h2>
             
-            <!-- El texto de avance o reseña con tipografía cómoda -->
             <div class="text-base text-gray-700 leading-relaxed font-sans">
                 Líneas de muestra para la bajada de Anotaciones fechadas. Un registro fragmentario, cronológico o de apuntes cotidianos que configuran una bitácora de observaciones literarias sobre el mundo urbano y sus derivas.
             </div>
-            
-            <!-- Un botón limpio por si en el futuro querés linkear el PDF o la compra -->
             
             <div class="pt-2">
                 <a href="#" target="_blank" class="inline-block font-inconsolata font-bold text-sm text-amber-900 hover:underline">
                     Ver más sobre el libro →
                 </a>
             </div>
-            
         </div>
 
-        <!-- Bloque Derecho: La pequeña ilustración o portada -->
+        <!-- Bloque Derecho: Portada limpia afuera de la caja de texto -->
         <div class="w-48 sm:w-56 flex-shrink-0 order-first md:order-last">
             <div class="overflow-hidden rounded-sm shadow-md bg-white p-2 border border-gray-100">
                 <img src="https://raw.githubusercontent.com/raulvieytes/raulvieytes.github.io/refs/heads/main/assets/img/cuadro 15.jpg" alt="Anotaciones fechadas" class="w-full object-cover" />
@@ -320,31 +318,27 @@
 
     </div>
     
-    <!-- Cada libro es una fila limpia: En PC pone el texto a la izquierda y la foto a la derecha (md:flex-row) -->
-    <div class="flex flex-col md:flex-row items-center md:items-start gap-8 border-b border-gray-200 pb-12 last:border-0">
+    <!-- Fila limpia del libro -->
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-8 pb-12 border-b border-gray-200 last:border-0">
         
-        <!-- Bloque Izquierdo: Título y Reseña del libro -->
-        <div class="flex-1 space-y-4 text-justify md:text-left">
+        <!-- Bloque Izquierdo: Solo el Texto envuelto en la caja blanca con esquinas redondeadas -->
+        <div class="flex-1 space-y-4 text-justify md:text-left bg-white p-6 rounded-lg shadow-sm">
             <h2 class="font-inconsolata text-3xl font-bold text-gray-900 tracking-tight">
                 Los fríticos de Krankfurt
             </h2>
             
-            <!-- El texto de avance o reseña con tipografía cómoda -->
             <div class="text-base text-gray-700 leading-relaxed font-sans">
                 Más fruta para rellenar el espacio inferior de este título lúdico y sonoro. Una aproximación a los personajes, las situaciones o las digresiones estilísticas que le dan cuerpo y sustancia a esta pieza del catálogo.
             </div>
-            
-            <!-- Un botón limpio por si en el futuro querés linkear el PDF o la compra -->
             
             <div class="pt-2">
                 <a href="#" target="_blank" class="inline-block font-inconsolata font-bold text-sm text-amber-900 hover:underline">
                     Ver más sobre el libro →
                 </a>
             </div>
-            
         </div>
 
-        <!-- Bloque Derecho: La pequeña ilustración o portada -->
+        <!-- Bloque Derecho: Portada limpia afuera de la caja de texto -->
         <div class="w-48 sm:w-56 flex-shrink-0 order-first md:order-last">
             <div class="overflow-hidden rounded-sm shadow-md bg-white p-2 border border-gray-100">
                 <img src="https://raw.githubusercontent.com/raulvieytes/raulvieytes.github.io/refs/heads/main/assets/img/cuadro-24.jpg" alt="Los fríticos de Krankfurt" class="w-full object-cover" />
@@ -353,31 +347,27 @@
 
     </div>
     
-    <!-- Cada libro es una fila limpia: En PC pone el texto a la izquierda y la foto a la derecha (md:flex-row) -->
-    <div class="flex flex-col md:flex-row items-center md:items-start gap-8 border-b border-gray-200 pb-12 last:border-0">
+    <!-- Fila limpia del libro -->
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-8 pb-12 border-b border-gray-200 last:border-0">
         
-        <!-- Bloque Izquierdo: Título y Reseña del libro -->
-        <div class="flex-1 space-y-4 text-justify md:text-left">
+        <!-- Bloque Izquierdo: Solo el Texto envuelto en la caja blanca con esquinas redondeadas -->
+        <div class="flex-1 space-y-4 text-justify md:text-left bg-white p-6 rounded-lg shadow-sm">
             <h2 class="font-inconsolata text-3xl font-bold text-gray-900 tracking-tight">
                 Antágono
             </h2>
             
-            <!-- El texto de avance o reseña con tipografía cómoda -->
             <div class="text-base text-gray-700 leading-relaxed font-sans">
                 Bajada ficticia para Antágono. La contraposición de fuerzas, el diseño de las tensiones narrativas y el desarrollo de un estilo que dialoga constantemente con las estructuras tradicionales de la literatura de ficción.
             </div>
-            
-            <!-- Un botón limpio por si en el futuro querés linkear el PDF o la compra -->
             
             <div class="pt-2">
                 <a href="#" target="_blank" class="inline-block font-inconsolata font-bold text-sm text-amber-900 hover:underline">
                     Ver más sobre el libro →
                 </a>
             </div>
-            
         </div>
 
-        <!-- Bloque Derecho: La pequeña ilustración o portada -->
+        <!-- Bloque Derecho: Portada limpia afuera de la caja de texto -->
         <div class="w-48 sm:w-56 flex-shrink-0 order-first md:order-last">
             <div class="overflow-hidden rounded-sm shadow-md bg-white p-2 border border-gray-100">
                 <img src="https://raw.githubusercontent.com/raulvieytes/raulvieytes.github.io/refs/heads/main/assets/img/cuadro 15.jpg" alt="Antágono" class="w-full object-cover" />
@@ -386,31 +376,27 @@
 
     </div>
     
-    <!-- Cada libro es una fila limpia: En PC pone el texto a la izquierda y la foto a la derecha (md:flex-row) -->
-    <div class="flex flex-col md:flex-row items-center md:items-start gap-8 border-b border-gray-200 pb-12 last:border-0">
+    <!-- Fila limpia del libro -->
+    <div class="flex flex-col md:flex-row items-center md:items-start gap-8 pb-12 border-b border-gray-200 last:border-0">
         
-        <!-- Bloque Izquierdo: Título y Reseña del libro -->
-        <div class="flex-1 space-y-4 text-justify md:text-left">
+        <!-- Bloque Izquierdo: Solo el Texto envuelto en la caja blanca con esquinas redondeadas -->
+        <div class="flex-1 space-y-4 text-justify md:text-left bg-white p-6 rounded-lg shadow-sm">
             <h2 class="font-inconsolata text-3xl font-bold text-gray-900 tracking-tight">
                 Pobreza de las naciones
             </h2>
             
-            <!-- El texto de avance o reseña con tipografía cómoda -->
             <div class="text-base text-gray-700 leading-relaxed font-sans">
                 Texto de cierre para rellenar la última bajada del catálogo provisional. Una reflexión o entramado ficcional que juega con los conceptos del título para redondear el panorama de publicaciones presentadas en la plataforma.
             </div>
-            
-            <!-- Un botón limpio por si en el futuro querés linkear el PDF o la compra -->
             
             <div class="pt-2">
                 <a href="#" target="_blank" class="inline-block font-inconsolata font-bold text-sm text-amber-900 hover:underline">
                     Ver más sobre el libro →
                 </a>
             </div>
-            
         </div>
 
-        <!-- Bloque Derecho: La pequeña ilustración o portada -->
+        <!-- Bloque Derecho: Portada limpia afuera de la caja de texto -->
         <div class="w-48 sm:w-56 flex-shrink-0 order-first md:order-last">
             <div class="overflow-hidden rounded-sm shadow-md bg-white p-2 border border-gray-100">
                 <img src="https://raw.githubusercontent.com/raulvieytes/raulvieytes.github.io/refs/heads/main/assets/img/cuadro-24.jpg" alt="Pobreza de las naciones" class="w-full object-cover" />

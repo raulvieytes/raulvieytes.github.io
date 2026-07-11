@@ -2,7 +2,7 @@
 title: Sin título 
 layout: post
 author: Raúl Vieytes
-image: https://raw.githubusercontent.com/raulvieytes/raulvieytes.github.io/refs/heads/main/assets/img/cuadro-22.jpg
+image: /assets/img/cuadro-22.jpg
 ---
 
 ¿De qué? De otro tipo de fenómenos paranormales u otra materia menos específica. Como decía la frase, los tontos andaban apurados por donde los ángeles tenían miedo de pisar. El espacio entre un tren y el siguiente -el que venía detrás- también se desplazaba cuando avanzaban los trenes: era como un tren de aire, muy extenso y transparente, en el que también podías viajar (desde un lugar hasta el mismo). 
