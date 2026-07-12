@@ -10,7 +10,7 @@
 
 - title: "Lafinur"
   excerpt: "Bajada de relleno para Lafinur. Un recorrido ficcional o ensayístico que se despliega a lo largo de sus páginas. Estética cuidada y narrativa precisa para delinear los contornos de este volumen dentro de la colección general."
-  image: "https://raw.githubusercontent.com/raulvieytes/raulvieytes.github.io/refs/heads/main/assets/img/Lafinur_retrato.jpg"
+  image: "/assets/img/Lafinur_retrato.jpg"
   url: "#"
 
 - title: "Historias exquisitas + 2 relatos de relleno"
