@@ -20,38 +20,56 @@ layout: default
 </div>
 
 <!-- El estilo del fondo general, la tarjeta y los links en azul -->
+
 <style>
+  /* 1. Color de fondo para toda la pantalla */
   body {
-    background-image: url('/assets/img/cuadro-10.jpg') !important;
-    background-size: cover !important;
-    background-position: top !important;
-    background-repeat: no-repeat !important;
-    background-attachment: fixed !important;
+    background-color: #eae3c9 !important; /* Tono crema/arena suave */
+    background-image: none !important;    /* Quita texturas pesadas */
   }
-  
+
+  /* 2. La caja blanca que contiene el cuento/texto */
+  .tarjeta-blanca-post,
   .tarjeta-blanca-texto {
     background-color: white !important;
     color: #1a1a1a !important;
-    padding: 35px !important;
+    padding: 40px !important;
     border-radius: 8px !important;
-    box-shadow: 0 4px 20px rgba(0,0,0,0.2) !important;
-    max-width: 650px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+    margin-top: 20px !important;
   }
 
+  /* 3. Formato literario automático para los párrafos de los cuentos */
+  .cuerpo-del-cuento p {
+    text-indent: 2.5em !important;
+    line-height: 1.7 !important;
+    margin-bottom: 0.5em !important;
+  }
+
+  /* 4. Sangría e interlineado para la biografía/perfil */
   .tarjeta-blanca-texto p {
-    text-indent: 30px !important;
-    margin-bottom: 1.2em !important;
-    text-align: justify !important;
-    line-height: 1.6 !important;
+    text-indent: 2.5em !important; /* Sangría en la primera línea */
+    line-height: 1.7 !important;
+    margin-bottom: 0.5em !important; /* Mismo interlineado continuo */
   }
 
-  .tarjeta-blanca-texto a {
-    color: #0066cc !important;
-    text-decoration: underline !important;
-    font-weight: 500 !important;
+  /* 5. Centrado sin sangría para el bloque de contacto (Mail e Instagram) */
+  .tarjeta-blanca-texto .datos-contacto {
+    text-align: center !important;
+    text-indent: 0 !important;
+    margin-top: 1.5em !important;
+    line-height: 1.8 !important;
   }
-  
+
+  /* 6. Estilo azul para los enlaces dentro del perfil (Mail, Instagram, etc.) */
+  .tarjeta-blanca-texto a {
+    color: #1d4ed8 !important;         /* Azul claro/profundo */
+    text-decoration: none !important;  /* Sin subrayado por defecto */
+    font-weight: 500;
+  }
+
+  /* Efecto al pasar el cursor (hover) */
   .tarjeta-blanca-texto a:hover {
-    color: #004499 !important;
+    text-decoration: underline !important; /* Aparece el subrayado */
   }
 </style>
