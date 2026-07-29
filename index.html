@@ -28,6 +28,20 @@ title: Home
       padding-bottom: 25px !important; /* Un poquito menos de aire abajo en el celular */
     }
   }
+
+  /* Estilo para la leyenda "Leer más..." en verde azulado */
+  .link-leer-mas {
+    color: #0d9488 !important;       /* Verde azulado / Teal */
+    font-weight: bold !important;
+    margin-left: 4px;
+    display: inline-block;
+  }
+
+  /* Subrayado al pasar el cursor sobre la tarjeta */
+  .break-inside-avoid-column:hover .link-leer-mas {
+    text-decoration: underline !important;
+    color: #0f766e !important;       /* Tono un poco más intenso al pasar el mouse */
+  }
 </style>
 
 <!-- Fondo fijo a pantalla completa (sin repetición) con el cuadro 9 -->
@@ -52,8 +66,8 @@ title: Home
           </h2>
           <div class="sm:text-sm">
             {% assign excerpt_text = post.excerpt | strip_html | strip_newlines | strip %} 
-            {% assign truncated = excerpt_text | truncatewords: 30, '...' %} 
-            {{ truncated }}
+            {% assign truncated = excerpt_text | truncatewords: 30, '' %} 
+            {{ truncated }} <span class="link-leer-mas">Leer más...</span>
           </div>
         </div>
       </div>
