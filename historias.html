@@ -2,6 +2,25 @@
 layout: default
 title: Historias exquisitas + 2 relatos de relleno
 permalink: /historias/
+cuentos:
+  - "Tus ojos calientes"
+  - "El extraño del perro galgo"
+  - "Fantasía"
+  - "No se puede sacar fotos de los sueños"
+  - "El reverso del plano"
+  - "Sambayón, triunvirato y nostalgia"
+  - "El viaje en globo"
+  - "Las 6 a.m. del 31 de diciembre"
+  - "Introducción"
+  - "La reliquia"
+  - "Lee libros"
+  - "Un océano blanco"
+  - "En el lugar del otro"
+  - "Tres mil cráteres"
+  - "Taribbean Purpide"
+  - "Después"
+  - "El escalofrío"
+  - "Especie protegida"
 ---
 
 <article class="p-6 sm:p-0 space-y-8 sm:space-y-6 sm:max-w-3xl mx-auto">
@@ -15,9 +34,52 @@ permalink: /historias/
         <img src="https://raw.githubusercontent.com/raulvieytes/raulvieytes.github.io/refs/heads/main/assets/img/cuadro-24.jpg" alt="Historias exquisitas" class="w-full rounded-sm my-6" />
         
         <div class="space-y-4 cuerpo-del-cuento text-justify text-sm md:text-xl">
-            <p>Escribí acá la presentación o el texto del libro...</p>
+            <p>Ópera prima de lo que en la segunda mitad del siglo veintiuno habrá de conocerse como "la técnica": textos esenciales, en los que pueden rastrearse todos los ingredientes de la ruptura con las literaturas del pasado.</p>
         </div>
         
+    </div>
+
+    <!-- Índice de Cuentos -->
+    <div class="bg-white p-6 sm:p-8 rounded-sm shadow-md space-y-4">
+        <h2 class="font-inconsolata text-2xl font-bold text-gray-900 border-b border-gray-200 pb-2 text-center">
+            Índice de relatos
+        </h2>
+        
+        <!-- Primeros 16 relatos (Historias Exquisitas) -->
+        <div class="grid grid-cols-1 gap-y-1 font-sans text-center">
+            {% for nombre in page.cuentos limit:16 %}
+            <div class="py-2 border-b border-gray-100 border-dashed hover:bg-amber-50/50 px-2 rounded-sm transition-colors">
+                <a href="/assets/pdf/historias/cuento-{{ forloop.index }}.pdf" target="_blank" class="block text-amber-900 hover:text-amber-700 hover:underline font-medium">
+                    {{ forloop.index }}. {{ nombre }}
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+
+        <!-- Título para los relatos de relleno (Mismo color ámbar y más pegado a los cuentos) -->
+        <div class="pt-6 pb-1 text-center">
+            <h3 class="font-inconsolata text-xl font-bold text-amber-900 border-b border-gray-200 pb-2 tracking-wide uppercase">
+                DOS RELATOS DE RELLENO:
+            </h3>
+        </div>
+
+        <!-- Cuentos 17 y 18 -->
+        <div class="grid grid-cols-1 gap-y-1 font-sans text-center">
+            {% for nombre in page.cuentos offset:16 %}
+            <div class="py-2 border-b border-gray-100 border-dashed hover:bg-amber-50/50 px-2 rounded-sm transition-colors">
+                <a href="/assets/pdf/historias/cuento-{{ forloop.index | plus: 16 }}.pdf" target="_blank" class="block text-amber-900 hover:text-amber-700 hover:underline font-medium">
+                    {{ forloop.index | plus: 16 }}. {{ nombre }}
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Botón para volver al catálogo general -->
+    <div class="text-center pt-4">
+        <a href="/libros" class="inline-block bg-white/90 backdrop-blur-xs px-4 py-2 rounded-sm shadow-xs font-inconsolata text-sm text-gray-700 hover:text-amber-900 hover:underline">
+            ← Volver al catálogo de libros
+        </a>
     </div>
 
 </article>
