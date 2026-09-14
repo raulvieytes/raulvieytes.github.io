@@ -1,0 +1,131 @@
+---
+layout: default
+permalink: /lafinur/
+title: "Lafinur"
+secciones:
+  - titulo: "Introducción"
+    pdf: "lafinur-00.pdf"
+  - titulo: "1. LAS DOS MUERTES DE JUAN CRISÓSTOMO LAFINUR"
+    pdf: "lafinur-01.pdf"
+  - titulo: "2. SEGÚN ELLA, ELLA ERA ELLA"
+    pdf: "lafinur-02.pdf"
+  - titulo: "3. AL ESPANTARSE EL CABALLO, AGRAVOSE SU ENFERMEDAD"
+    pdf: "lafinur-03.pdf"
+  - titulo: "4. JUAN W. GEZ: LA BIOGRAFÍA COMO LIBERTAD FICCIONAL"
+    pdf: "lafinur-04.pdf"
+  - titulo: "5. EL MAL DE LAFINUR"
+    pdf: "lafinur-05.pdf"
+  - titulo: "6. ¿ES O NO VERDAD LO QUE AFIRMA GEZ?"
+    pdf: "lafinur-06.pdf"
+  - titulo: "7. EL DIAGNÓSTICO CLÍNICO"
+    pdf: "lafinur-07.pdf"
+  - titulo: "8. APOTEÓSIS FANTÁSTICA"
+    pdf: "lafinur-08.pdf"
+  - titulo: "9. IDEAS FIJAS DE UN BIÓGRAFO"
+    pdf: "lafinur-09.pdf"
+  - titulo: "10. EL HÍGADO DE JUAN W. GEZ"
+    pdf: "lafinur-10.pdf"
+  - titulo: "11. LAS PIEDRAS Y EL CABALLO"
+    pdf: "lafinur-11.pdf"
+  - titulo: "12. UNA HAZAÑA NUNCA VISTA"
+    pdf: "lafinur-12.pdf"
+  - titulo: "13. MATERIALMENTE SIN CAMISA"
+    pdf: "lafinur-13.pdf"
+  - titulo: "14. TENIENTE, SIN GOCE DE FUERO NI USO DE UNIFORME, QUE NO FIGURA EN LAS LISTAS DEL EJÉRCITO"
+    pdf: "lafinur-14.pdf"
+  - titulo: "15. ACADEMIA DE MATEMÁTICAS O LOGIA MASÓNICA, ES IGUAL"
+    pdf: "lafinur-15.pdf"
+  - titulo: "16. ENTRE MASONES SE ENTIENDEN"
+    pdf: "lafinur-16.pdf"
+  - titulo: "17. “LABORIOSIDAD EXTRAORDINARIA” DE LAFINUR EN CHILE"
+    pdf: "lafinur-17.pdf"
+  - titulo: "18. UN RETRATO EN MINIATURA"
+    pdf: "lafinur-18.pdf"
+  - titulo: "19. CONCLUSIONES DE ESTA INVESTIGACIÓN"
+    pdf: "lafinur-19.pdf"
+  - titulo: "20. EN SERIO... ¿QUÉ HACE LAFINUR EN CHILE?"
+    pdf: "lafinur-20.pdf"
+  - titulo: "21. Y NO SE CANTÓ MÁS"
+    pdf: "lafinur-21.pdf"
+  - titulo: "22. EL RIESGO DE LO IMPREVISIBLE"
+    pdf: "lafinur-22.pdf"
+  - titulo: "23. EL PIANISTA SORDO Y MUDO"
+    pdf: "lafinur-23.pdf"
+  - titulo: "24. UN TRUEQUE EN CHILE EN 1824"
+    pdf: "lafinur-24.pdf"
+  - titulo: "25. LOS MOTIVOS DE UNA QUEJA"
+    pdf: "lafinur-25.pdf"
+  - titulo: "26. EL CUÑADO DEL DOCTOR LAFINUR"
+    pdf: "lafinur-26.pdf"
+  - titulo: "27. AMIGOS ENEMIGOS"
+    pdf: "lafinur-27.pdf"
+  - titulo: "28. EL FANTASMA"
+    pdf: "lafinur-28.pdf"
+  - titulo: "29. LA RETRACTACIÓN DE LAFINUR"
+    pdf: "lafinur-29.pdf"
+  - titulo: "30. OTRA MUERTE APÓCRIFA DE LAFINUR"
+    pdf: "lafinur-30.pdf"
+  - titulo: "31. SU SEÑORA VIUDA AÚN VIVE"
+    pdf: "lafinur-31.pdf"
+  - titulo: "EPÍLOGO: FINAL ABIERTO"
+    pdf: "lafinur-32.pdf"
+  - titulo: "BIBLIOGRAFÍA"
+    pdf: "lafinur-33.pdf"
+---
+
+<article class="p-6 sm:p-0 space-y-8 sm:space-y-6 sm:max-w-3xl mx-auto">
+    
+    <div class="tarjeta-blanca-post">
+        <div class="pt-2 sm:pb-2 text-center">
+            <h1 class="text-2xl md:text-4xl font-inconsolata font-bold text-gray-900">Lafinur</h1>
+        </div>
+        
+        <div class="space-y-4 cuerpo-del-cuento text-justify text-sm md:text-xl italic">
+            <p>La biografía oficial de Juan Crisóstomo Lafinur -cualquiera puede leerla en la Wikipedia- transcribe lo que dice Juan W. Gez en un libro publicado en 1907. Ahora bien, resulta que este profesor falseó todo lo que pudo en los datos de la vida de su biografiado, dónde y cómo pasó la infancia, por qué fue expulsado del Monserrat, le fraguó una inexistente carrera militar, tergiversó la causa del escándalo en Mendoza, mintió su participación en periódicos chilenos y -entre varios etcéteras más- le inventó una muerte épica. Si desean ver cómo se fabrica un prócer, los invito a leer este ensayo (investigación subsidiada por el gobierno de la Ciudad de Buenos Aires, gestión de Aníbal Ibarra).</p>
+        </div>
+    </div>
+
+    <!-- Índice de Capítulos -->
+    <div class="bg-white p-6 sm:p-8 rounded-sm shadow-md space-y-4">
+        
+        <div class="grid grid-cols-1 gap-y-1 font-sans text-center">
+            {% for item in page.secciones %}
+<div class="py-2 border-b border-gray-100 border-dashed hover:bg-amber-50/50 px-2 rounded-sm transition-colors">
+    <a href="/assets/pdf/lafinur/{{ item.pdf }}" target="_blank" class="block text-amber-900 hover:text-amber-700 hover:underline font-medium text-sm md:text-base {% if item.titulo == 'Introducción' %}italic{% endif %}">
+        {{ item.titulo }}
+    </a>
+</div>
+{% endfor %}
+        </div>
+    </div>
+
+    <!-- Botón para volver al catálogo general -->
+    <div class="text-center pt-4">
+        <a href="/libros" class="inline-block bg-white/90 backdrop-blur-xs px-4 py-2 rounded-sm shadow-xs font-inconsolata text-sm text-gray-700 hover:text-amber-900 hover:underline">
+            ← Volver al catálogo de libros
+        </a>
+    </div>
+
+</article>
+
+<style>
+  body {
+    background-color: #eae3c9 !important;
+    background-image: none !important;
+  }
+
+  .tarjeta-blanca-post {
+    background-color: white !important;
+    color: #1a1a1a !important;
+    padding: 40px !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+    margin-top: 20px !important;
+  }
+
+  .cuerpo-del-cuento p {
+    text-indent: 2.5em !important;
+    line-height: 1.7 !important;
+    margin-bottom: 0 !important;
+  }
+</style>
