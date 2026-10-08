@@ -69,8 +69,10 @@ secciones:
     pdf: "lafinur-31.pdf"
   - titulo: "EPÍLOGO: FINAL ABIERTO"
     pdf: "lafinur-32.pdf"
-  - titulo: "BIBLIOGRAFÍA"
+  - titulo: "ANEXO: LAFINURA"
     pdf: "lafinur-33.pdf"
+  - titulo: "BIBLIOGRAFÍA"
+    pdf: "lafinur-34.pdf"
 ---
 
 <article class="p-6 sm:p-0 space-y-8 sm:space-y-6 sm:max-w-3xl mx-auto">
@@ -85,21 +87,19 @@ secciones:
         </div>
     </div>
 
-    <!-- Índice de Capítulos -->
     <div class="bg-white p-6 sm:p-8 rounded-sm shadow-md space-y-4">
         
         <div class="grid grid-cols-1 gap-y-1 font-sans text-center">
             {% for item in page.secciones %}
-<div class="py-2 border-b border-gray-100 border-dashed hover:bg-amber-50/50 px-2 rounded-sm transition-colors">
-    <a href="/assets/pdf/lafinur/{{ item.pdf }}" target="_blank" class="block text-amber-900 hover:text-amber-700 hover:underline font-medium text-sm md:text-base {% if item.titulo == 'Introducción' %}italic{% endif %}">
-        {{ item.titulo }}
-    </a>
-</div>
-{% endfor %}
+            <div class="py-2 border-b border-gray-100 border-dashed hover:bg-amber-50/50 px-2 rounded-sm transition-colors">
+                <a href="/assets/pdf/lafinur/{{ item.pdf }}" target="_blank" class="block text-amber-900 hover:text-amber-700 hover:underline font-medium text-sm md:text-base {% if item.titulo == 'Introducción' %}italic{% endif %}">
+                    {{ item.titulo }}
+                </a>
+            </div>
+            {% endfor %}
         </div>
     </div>
 
-    <!-- Botón para volver al catálogo general -->
     <div class="text-center pt-4">
         <a href="/libros" class="inline-block bg-white/90 backdrop-blur-xs px-4 py-2 rounded-sm shadow-xs font-inconsolata text-sm text-gray-700 hover:text-amber-900 hover:underline">
             ← Volver al catálogo de libros
