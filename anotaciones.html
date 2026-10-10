@@ -1,0 +1,84 @@
+---
+layout: default
+permalink: /anotaciones/
+title: "Anotaciones fechadas"
+secciones:
+  - titulo: "2015"
+    pdf: "anotaciones-2015.pdf"
+  - titulo: "2016"
+    pdf: "anotaciones-2016.pdf"
+  - titulo: "2017"
+    pdf: "anotaciones-2017.pdf"
+  - titulo: "2018"
+    pdf: "anotaciones-2018.pdf"
+  - titulo: "2019"
+    pdf: "anotaciones-2019.pdf"
+  - titulo: "2020"
+    pdf: "anotaciones-2020.pdf"
+  - titulo: "2021"
+    pdf: "anotaciones-2021.pdf"
+  - titulo: "2022"
+    pdf: "anotaciones-2022.pdf"
+  - titulo: "2023"
+    pdf: "anotaciones-2023.pdf"
+  - titulo: "2024"
+    pdf: "anotaciones-2024.pdf"
+  - titulo: "2025"
+    pdf: "anotaciones-2025.pdf"
+---
+
+<article class="p-6 sm:p-0 space-y-8 sm:space-y-6 sm:max-w-3xl mx-auto">
+    
+    <div class="tarjeta-blanca-post">
+        <div class="pt-2 sm:pb-2 text-center">
+            <h1 class="text-2xl md:text-4xl font-inconsolata font-bold text-gray-900">Anotaciones fechadas</h1>
+        </div>
+        
+        <div class="space-y-4 cuerpo-del-cuento text-justify text-sm md:text-xl italic">
+            <p>Estas anotaciones fechadas, comenzadas en 2015, darán a quien dudosamente lo lea oportunidad de observar el deterioro de una psiquis a lo largo de más de diez años, desde cierta aparente normalidad literaria hasta los gurullos mentales que el autor produce actualmente. ¡Imprescindible para lectores crueles de todo género!</p>
+        </div>
+    </div>
+
+    <!-- Índice por Años -->
+    <div class="bg-white p-6 sm:p-8 rounded-sm shadow-md space-y-4">
+        <div class="grid grid-cols-1 gap-y-1 font-sans text-center">
+            {% for item in page.secciones %}
+            <div class="py-2 border-b border-gray-100 border-dashed hover:bg-amber-50/50 px-2 rounded-sm transition-colors">
+                <a href="/assets/pdf/anotaciones/{{ item.pdf }}" target="_blank" class="block text-amber-900 hover:text-amber-700 hover:underline font-medium text-sm md:text-base">
+                    {{ item.titulo }}
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+
+    <!-- Botón para volver al catálogo general -->
+    <div class="text-center pt-4">
+        <a href="/libros" class="inline-block bg-white/90 backdrop-blur-xs px-4 py-2 rounded-sm shadow-xs font-inconsolata text-sm text-gray-700 hover:text-amber-900 hover:underline">
+            ← Volver al catálogo de libros
+        </a>
+    </div>
+
+</article>
+
+<style>
+  body {
+    background-color: #eae3c9 !important;
+    background-image: none !important;
+  }
+
+  .tarjeta-blanca-post {
+    background-color: white !important;
+    color: #1a1a1a !important;
+    padding: 40px !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important;
+    margin-top: 20px !important;
+  }
+
+  .cuerpo-del-cuento p {
+    text-indent: 2.5em !important;
+    line-height: 1.7 !important;
+    margin-bottom: 0 !important;
+  }
+</style>
