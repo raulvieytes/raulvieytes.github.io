@@ -31,9 +31,9 @@ secciones:
     pdf: "lafinur-12.pdf"
   - titulo: "13. MATERIALMENTE SIN CAMISA"
     pdf: "lafinur-13.pdf"
-  - titulo: "14. TENIENTE, SIN GOCE DE FUERO NI USO DE UNIFORME, QUE NO FIGURA EN LAS LISTAS DEL EJÉRCITO"
+  - titulo: "14. TENIENTE, SIN GOCE DE FUERO NI USO DE UNIFORME,<br>QUE NO FIGURA EN LAS LISTAS DEL EJÉRCITO"
     pdf: "lafinur-14.pdf"
-  - titulo: "15. ACADEMIA DE MATEMÁTICAS O LOGIA MASÓNICA, ES IGUAL"
+  - titulo: "15. ACADEMIA DE MATEMÁTICAS O LOGIA MASÓNICA,<br>ES IGUAL"
     pdf: "lafinur-15.pdf"
   - titulo: "16. ENTRE MASONES SE ENTIENDEN"
     pdf: "lafinur-16.pdf"
@@ -69,13 +69,12 @@ secciones:
     pdf: "lafinur-31.pdf"
   - titulo: "EPÍLOGO: FINAL ABIERTO"
     pdf: "lafinur-32.pdf"
-  - titulo: "ANEXO"
+  - titulo: "Anexo: LAFINURA"
     pdf: "lafinur-33.pdf"
   - titulo: "BIBLIOGRAFÍA"
     pdf: "lafinur-34.pdf"
 ---
 
-<!-- Importamos la fuente Playfair Display desde Google Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,600;1,800&display=swap" rel="stylesheet">
@@ -91,42 +90,54 @@ secciones:
         font-family: 'Playfair Display', serif;
         font-style: italic;
         color: #FFFFFF !important;
-        text-shadow: 1px 1px 3px rgba(120, 53, 15, 0.6) !important;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8) !important;
     }
     .calado-lafinur {
         color: #FFFFFF !important;
-        text-shadow: 1px 1px 3px rgba(120, 53, 15, 0.7) !important;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9) !important;
+    }
+    /* Franjas nítidas verticales de la bandera LGBT+ */
+    .caja-arcoiris {
+        background: linear-gradient(
+            90deg,
+            #805ad5 0% 16.66%,
+            #3182ce 16.66% 33.33%,
+            #38a169 33.33% 50%,
+            #d69e2e 50% 66.66%,
+            #dd6b20 66.66% 83.33%,
+            #e53e3e 83.33% 100%
+        ) !important;
     }
 </style>
 
-<!-- Fondo con el retrato de Lafinur al 50% de su tamaño, centrado y fijo -->
-<div class="w-full min-h-screen bg-center bg-no-repeat bg-fixed py-10 px-4 sm:px-6" 
-     style="background-image: url('/assets/img/lafinur_retrato.jpg') !important; background-size: 50% auto;">
+<!-- Fondo con el retrato de Lafinur en mosaico (repetido en miniatura) y fijo -->
+<div class="w-full min-h-screen bg-repeat bg-fixed py-10 px-4 sm:px-6" 
+     style="background-image: url('/assets/img/lafinur_retrato.jpg') !important; background-size: 150px auto;">
     
     <div class="max-w-3xl mx-auto space-y-8">
 
-        <!-- Caja del Título -->
-        <div class="p-8 sm:p-12 rounded-sm shadow-md text-center relative overflow-hidden" style="background-color: #78350F !important;">
+        <!-- Caja del Título: Arcoíris en bandas verticales -->
+        <div class="p-8 sm:p-12 rounded-sm shadow-lg text-center relative overflow-hidden caja-arcoiris">
             <h1 class="titulo-lafinur text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-wide leading-tight px-2">
                 Lafinur
             </h1>
         </div>
 
         <!-- Comentario / Bajada -->
-        <div class="bg-white p-6 sm:p-8 rounded-sm shadow-md border-l-4 border-amber-800 text-justify text-base md:text-lg text-gray-800 italic leading-relaxed">
+        <div class="bg-white p-6 sm:p-8 rounded-sm shadow-md border-l-4 border-purple-600 text-justify text-base md:text-lg text-gray-800 italic leading-relaxed">
             La biografía oficial de Juan Crisóstomo Lafinur -cualquiera puede leerla en la Wikipedia- sencillamente transcribe lo que dice Juan W. Gez en un libro publicado en 1907. Ahora bien, resulta que este profesor falseó todo lo que pudo en los datos de la vida de su biografiado, dónde y cómo pasó la infancia, por qué fue expulsado del Monserrat, le fraguó una inexistente carrera militar, tergiversó la causa del escándalo en Mendoza, mintió su participación en periódicos chilenos y -entre varios etcéteras más- le inventó una muerte épica. Si desean ver cómo se fabrica un prócer, los invito a leer este ensayo (investigación subsidiada en 2004 por el gobierno de la Ciudad de Buenos Aires, gestión de Aníbal Ibarra).
         </div>
 
-        <!-- Índice de Capítulos -->
-        <div class="p-6 sm:p-8 rounded-sm shadow-md space-y-6" style="background-color: #78350F !important;">
-            <h2 class="font-inconsolata text-2xl font-bold text-center pb-2 border-b border-white/30 calado-lafinur">
+        <!-- Índice de Capítulos: Arcoíris en bandas verticales -->
+        <div class="p-6 sm:p-8 rounded-sm shadow-lg space-y-6 caja-arcoiris">
+            <h2 class="font-inconsolata text-2xl md:text-3xl font-bold text-center pb-2 border-b border-white/40 calado-lafinur">
                 Índice de Capítulos:
             </h2>
             
-            <div class="grid grid-cols-1 gap-y-1 font-sans text-center">
+            <div class="grid grid-cols-1 gap-y-2 font-sans text-center">
                 {% for item in page.secciones %}
-                <div class="py-2 border-b border-white/20 border-dashed hover:bg-white/10 px-2 rounded-sm transition-colors">
-                    <a href="/assets/pdf/lafinur/{{ item.pdf }}" target="_blank" class="block hover:underline font-medium calado-lafinur {% if item.titulo == 'Introducción' %}italic{% endif %}">
+                <div class="py-2 border-b border-white/20 border-dashed hover:bg-white/20 px-2 rounded-sm transition-colors">
+                    <a href="/assets/pdf/lafinur/{{ item.pdf }}" target="_blank" class="block max-w-xl mx-auto hover:underline text-lg md:text-xl font-semibold calado-lafinur {% if item.titulo == 'Introducción' %}italic{% endif %}">
                         {{ item.titulo }}
                     </a>
                 </div>
@@ -136,7 +147,7 @@ secciones:
 
         <!-- Botón para volver al catálogo general -->
         <div class="text-center">
-            <a href="/libros" class="inline-block bg-white/90 backdrop-blur-xs px-4 py-2 rounded-sm shadow-xs font-inconsolata text-sm text-gray-700 hover:text-amber-900 hover:underline">
+            <a href="/libros" class="inline-block bg-white/90 backdrop-blur-xs px-4 py-2 rounded-sm shadow-xs font-inconsolata text-sm text-gray-700 hover:text-purple-900 hover:underline">
                 ← Volver al catálogo de libros
             </a>
         </div>
